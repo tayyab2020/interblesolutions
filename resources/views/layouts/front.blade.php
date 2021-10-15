@@ -77,7 +77,9 @@
                 <div class="row">
                     <div class="col-6">
                         <ul class="top-personal-info">
-                            <li><a href="tel:08053545622"><i class="las la-phone"></i> +1 805-354-5622</a></li>
+                            <li style="border: 1px solid #929292;padding: 15px;border-radius: 5px;">
+                                <a style="font-weight: 500;font-size: 20px;" href="tel:+18053545622"><i style="font-size: 25px;" class="las la-phone"></i> +1 805-354-5622</a>
+                            </li>
                         </ul>
                     </div>
                     <div class="col-6 text-right">
@@ -107,18 +109,23 @@
                         <nav class="navbar navbar-expand-lg">
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav ml-auto">
-                                    <li class="nav-item active"><a class="nav-link home" href="#">HOME</a></li>
-                                    <li class="nav-item"><a class="nav-link scroll" href="#about-sec">ABOUT</a></li>
+                                    <li class="nav-item active"><a class="nav-link home" href="{{url('/')}}">HOME</a></li>
+                                    <li class="nav-item active"><a class="nav-link home" href="{{url('/')}}">Resume Writing</a></li>
+                                    <li class="nav-item active"><a class="nav-link home" href="{{url('/')}}">BPO Services</a></li>
+                                    <li class="nav-item active"><a class="nav-link home" href="{{url('/')}}">Website Development</a></li>
+                                    <li class="nav-item active"><a class="nav-link home" href="{{url('clients')}}">Clients</a></li>
+                                    <li class="nav-item active"><a class="nav-link home" href="{{url('/')}}">About</a></li>
+                                    <li class="nav-item active"><a class="nav-link home" href="{{url('/')}}">Contact</a></li>
+                                    {{--<li class="nav-item"><a class="nav-link scroll" href="#about-sec">ABOUT</a></li>
                                     <li class="nav-item"><a class="nav-link scroll" href="#company-portfolio-section">PORTFOLIO</a></li>
                                     <li class="nav-item"><a class="nav-link scroll" href="#testimonial-sec">CLIENTS</a></li>
                                     <li class="nav-item"><a class="nav-link scroll" href="#blog-sec">BLOG</a></li>
-                                    <li class="nav-item"><a class="nav-link scroll" href="#contact-sec">CONTACT</a></li>
+                                    <li class="nav-item"><a class="nav-link scroll" href="#contact-sec">CONTACT</a></li>--}}
                                 </ul>
                             </div>
                         </nav>
                         <ul class="top-social-links fixed-nav-links">
                             <li><a href="#" class="link-holder fb"><i class="lab la-facebook-f"></i></a></li>
-                            <li><a href="#" class="link-holder twit"><i class="lab la-twitter"></i></a></li>
                             <li><a href="#" class="link-holder link-in"><i class="lab la-linkedin-in"></i></a></li>
                             <li><a href="#" class="link-holder insta"><i class="lab la-instagram"></i></a></li>
                         </ul>
