@@ -109,11 +109,11 @@
                         <nav class="navbar navbar-expand-lg">
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav ml-auto">
-                                    <li class="nav-item active"><a class="nav-link home" href="{{url('/')}}">HOME</a></li>
+                                    <li class="nav-item active"><a class="nav-link" href="{{url('/')}}">HOME</a></li>
                                     <li class="nav-item active"><a class="nav-link home" href="{{url('/')}}">Resume Writing</a></li>
                                     <li class="nav-item active"><a class="nav-link home" href="{{url('/')}}">BPO Services</a></li>
                                     <li class="nav-item active"><a class="nav-link home" href="{{url('/')}}">Website Development</a></li>
-                                    <li class="nav-item active"><a class="nav-link home" href="{{url('clients')}}">Clients</a></li>
+                                    <li class="nav-item active"><a class="nav-link" href="{{url('clients')}}">Clients</a></li>
                                     <li class="nav-item active"><a class="nav-link home" href="{{url('/')}}">About</a></li>
                                     <li class="nav-item active"><a class="nav-link home" href="{{url('/')}}">Contact</a></li>
                                     {{--<li class="nav-item"><a class="nav-link scroll" href="#about-sec">ABOUT</a></li>
