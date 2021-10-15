@@ -2,9 +2,9 @@
 
 @section('content')
 
-    <div class="testimonial-sec padding-top position-relative" id="testimonial-sec">
-        <div class="right-overlay"></div>
-        <div class="container">
+    <div class="slider-area testimonial-sec position-relative" id="testimonial-sec">
+        <div style="top: 0;" class="right-overlay"></div>
+        <div style="padding: 0;max-width: 100%;" class="container">
             <div class="testimonial-area padding-top padding-bottom">
                 <div class="container">
                     <div class="row">

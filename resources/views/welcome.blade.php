@@ -4,6 +4,7 @@
 
     <!--SLider sec start-->
     <section class="slider-area">
+        <div style="width: 100%;box-shadow: rgb(0 0 0 / 35%) 0px 0px 14px 3px;display: flex;z-index: 100;position: relative;"></div>
         <div class="bg-overlay"></div>
         <div class="container position-relative">
             <div class="inner-bg-overlay"></div>
@@ -227,7 +228,6 @@
     </section>
     <!--Team sec End-->
 
-
     <!--portfolio section start-->
     <section class="portfolio-sec company-portfolio-section padding-top" id="company-portfolio-section">
         <div class="container">
@@ -339,7 +339,6 @@
     </section>
     <!--portfolio section end-->
 
-
     <!--testimonial section start-->
     <div class="testimonial-sec padding-top position-relative" id="testimonial-sec">
         <div class="right-overlay"></div>
@@ -392,7 +391,6 @@
     </div>
     <!--testimonial section end-->
 
-
     <!--sponsers section start-->
     <div class="sponser-sec padding-top" id="sponser-sec">
         <div class="container">
@@ -424,7 +422,6 @@
     </div>
     <!--sponsers section end-->
 
-
     <!--Blogs section start-->
     <section class="blog-sec" id="blog-sec">
         <div class="left-overlay"></div>
@@ -451,7 +448,6 @@
         </div>
     </section>
     <!--Blogs section end-->
-
 
     <!--Contact section start-->
     <section class="contact-sec padding-top padding-bottom" id="contact-sec">
@@ -497,7 +493,6 @@
         </div>
     </section>
     <!--Contact section end-->
-
 
     <!--colored-lines-->
     <div class="color-lines row no-gutters">

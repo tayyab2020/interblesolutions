@@ -16,7 +16,7 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function Clients()
+    public function About()
     {
         return view('clients');
     }

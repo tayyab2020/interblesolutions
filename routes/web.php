@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('clients','HomeController@Clients');
+Route::get('about','HomeController@About');
 
 Route::get('login', function () {
     return view('welcome');
