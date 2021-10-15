@@ -170,7 +170,7 @@
                     <div class="col-12 col-lg-4 d-flex align-items-center">
                         <div class="side-footer text-white w-100">
                             <div class="menu-company-details">
-                                <span>+1 631 123 4567</span>
+                                <span><a href="tel:08053545622"> +1 805-354-5622</a></span>
                                 <span>email@website.com</span>
                             </div>
                             <ul class="social-icons-simple">
