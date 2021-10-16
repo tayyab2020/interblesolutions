@@ -93,12 +93,12 @@
             <div style="max-width: 95%;" class="container">
                 <div class="row">
 
-                    <div style="margin-top: 0;display: flex;align-items: center;" class="col-4 col-lg-3">
+                    <div style="margin-top: 0;display: flex;align-items: center;" class="col-7 col-lg-3">
                         <a style="background-color: transparent;padding: 0;text-align: left;" class="navbar-brand simple-nav-logo" href="index-creative-startup.html">
                             <img src="creative-startup/img/White and Orange Circle Icon Internet Logo (11).png" alt="logo">
                         </a>
                         <a class="navbar-brand fixed-nav-logo" href="index-creative-startup.html">
-                            <img src="creative-startup/img/logo-black.png" alt="logo">
+                            <img src="creative-startup/img/White and Orange Circle Icon Internet Logo (11).png" alt="logo">
                         </a>
                     </div>
 
@@ -163,28 +163,35 @@
             <div class="container">
                 <div class="row w-100 side-menu-inner-content">
                     <div class="col-12 d-flex justify-content-center align-items-center">
-                        <a href="index-creative-startup.html" class="navbar-brand"><img src="creative-startup/img/logo.png" alt="logo"></a>
+                        <a href="index-creative-startup.html" class="navbar-brand"><img src="creative-startup/img/White and Orange Circle Icon Internet Logo (11).png" alt="logo"></a>
                     </div>
                     <div class="col-12 col-lg-8">
                         <nav class="side-nav w-100">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link scroll" href="#home">HOME</a>
+                                    <a class="nav-link scroll" href="{{url('/')}}">HOME</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link scroll" href="#about-sec">ABOUT</a>
+                                    <a class="nav-link scroll" href="{{url('/')}}">Resume Writing</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <button class="nav-link scroll dropbtn">BPO Services
+                                        <i class="fa fa-caret-down"></i>
+                                    </button>
+                                    <div class="dropdown-content">
+                                        <a href="#">Link 1</a>
+                                        <a href="#">Link 2</a>
+                                        <a href="#">Link 3</a>
+                                    </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link scroll" href="#company-portfolio-section">PORTFOLIO</a>
+                                    <a class="nav-link scroll" href="{{url('/')}}">Web Development</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link scroll" href="#testimonial-sec">CLIENTS</a>
+                                    <a class="nav-link scroll" href="{{url('about')}}">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link scroll" href="#blog-sec">BLOG</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link scroll" href="#contact-sec">CONTACT</a>
+                                    <a class="nav-link scroll" href="{{url('/')}}">Contact</a>
                                 </li>
                             </ul>
                         </nav>
@@ -245,6 +252,13 @@
 
 <style>
 
+    .inner-header
+    {
+        height: 105px;
+        display: flex;
+        align-items: center;
+    }
+
     header
     {
         position: relative;
@@ -282,7 +296,56 @@
         top: 1px;
     }
 
-    @media (min-width: 992px)
+    .sidemenu_btn
+    {
+        top: 40px !important;
+        margin-top: 0;
+    }
+
+    .header-appear .fixed-nav-logo img
+    {
+        width: 70%;
+    }
+
+    .header-appear .sidemenu_btn
+    {
+        right: 30px;
+    }
+
+    @media (max-width: 586px)
+    {
+        header
+        {
+            height: 75px;
+        }
+
+        .inner-header
+        {
+            height: 75px;
+        }
+
+        .sidemenu_btn
+        {
+            top: 25px !important;
+            margin-right: 0;
+        }
+
+    }
+
+    @media (max-width: 1135px)
+    {
+        .navbar-expand-lg .navbar-collapse
+        {
+            display: none !important;
+        }
+
+        .simple-navbar
+        {
+            display: none !important;
+        }
+    }
+
+    @media (min-width: 1135px)
     {
         .sidemenu_btn
         {
@@ -301,7 +364,7 @@
     }
 
     .dropbtn {
-        background-color: white;
+        background-color: transparent;
         /*color: white;
         padding: 16px;*/
         font-size: 12px;
@@ -336,6 +399,22 @@
     header .main-navigation nav .navbar-nav .nav-item .nav-link
     {
         font-family: inherit;
+    }
+
+    .navbar-nav .dropdown-content
+    {
+        position: relative;
+    }
+
+    .side-menu .btn-close
+    {
+        top: 20px;
+        right: 20px;
+    }
+
+    header .side-menu .navbar-brand img
+    {
+        max-width: 100%;
     }
 
 </style>
