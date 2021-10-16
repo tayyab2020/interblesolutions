@@ -60,7 +60,7 @@
 
     <!--About sec start-->
     <section class="about-sec" id="about-sec">
-        <div class="about-overlay"></div>
+
         <div style="max-width: 100%;" class="container">
             <div class="row">
                 <div class="col-12 col-lg-6 services-area padding-top padding-bottom">

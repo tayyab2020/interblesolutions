@@ -346,6 +346,15 @@
         right: 30px;
     }
 
+    @media (max-width: 992px){
+
+        .about-sec .services-area .purple-overlay
+        {
+            right: 0;
+        }
+
+    }
+
     @media (max-width: 586px)
     {
         header
