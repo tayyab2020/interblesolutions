@@ -65,12 +65,7 @@
 <header id="home">
 
     <div class="inner-header">
-        <!--colored-lines-->
-        <div class="color-lines row no-gutters">
-            <div class="col-4 bg-red"></div>
-            <div class="col-4 bg-purple"></div>
-            <div class="col-4 bg-green"></div>
-        </div>
+
         <!--upper-nav-->
         {{--<div class="upper-nav">
             <div class="container">
@@ -95,12 +90,12 @@
         </div>--}}
         <!--main nav-->
         <div style="padding: 0;" class="main-navigation">
-            <div class="container">
+            <div style="max-width: 95%;" class="container">
                 <div class="row">
 
-                    <div style="margin-top: 30px;" class="col-4 col-lg-3">
-                        <a class="navbar-brand simple-nav-logo" href="index-creative-startup.html">
-                            <img src="creative-startup/img/logo.png" alt="logo">
+                    <div style="margin-top: 0;display: flex;align-items: center;" class="col-4 col-lg-3">
+                        <a style="background-color: transparent;padding: 0;text-align: left;" class="navbar-brand simple-nav-logo" href="index-creative-startup.html">
+                            <img src="creative-startup/img/White and Orange Circle Icon Internet Logo (11).png" alt="logo">
                         </a>
                         <a class="navbar-brand fixed-nav-logo" href="index-creative-startup.html">
                             <img src="creative-startup/img/logo-black.png" alt="logo">
@@ -108,12 +103,6 @@
                     </div>
 
                     <div style="margin-top: 20px;display: block;" class="col-8 col-lg-9 simple-navbar">
-
-                        <ul class="top-personal-info" style="list-style: none;width: auto;justify-content: flex-end;margin-bottom: 15px;">
-                            <li style="border: 1px solid #929292;padding: 5px 15px;border-radius: 5px;">
-                                <a style="font-weight: 500;font-size: 20px;" href="tel:+18053545622"><i style="font-size: 25px;" class="las la-phone"></i> +1 805-354-5622</a>
-                            </li>
-                        </ul>
 
                         <nav style="padding-bottom: 10px;" class="navbar navbar-expand-lg">
                             <li class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -131,7 +120,7 @@
                                             <a href="#">Link 3</a>
                                         </div>
                                     </li>
-                                    <li class="nav-item active"><a class="nav-link" href="{{url('/')}}">Website Development</a></li>
+                                    <li class="nav-item active"><a class="nav-link" href="{{url('/')}}">Web Development</a></li>
                                     {{--<li class="nav-item active"><a class="nav-link" href="{{url('clients')}}">Clients</a></li>--}}
                                     <li class="nav-item active"><a class="nav-link" href="{{url('about')}}">About</a></li>
                                     <li class="nav-item active"><a class="nav-link" href="{{url('/')}}">Contact</a></li>
@@ -141,7 +130,14 @@
                                     <li class="nav-item"><a class="nav-link scroll" href="#blog-sec">BLOG</a></li>
                                     <li class="nav-item"><a class="nav-link scroll" href="#contact-sec">CONTACT</a></li>--}}
                                 </ul>
-                            </div>
+
+                                <ul class="top-personal-info" style="list-style: none;width: auto;margin-bottom: 10px;margin-left: 20px;">
+                                    <li style="border: 1px solid #929292;padding: 5px 15px;border-radius: 5px;">
+                                        <a style="font-weight: 500;" href="tel:+18053545622"><i class="las la-phone"></i> +1 805-354-5622</a>
+                                    </li>
+                                </ul>
+
+                            </li>
                         </nav>
                         {{--<ul class="top-social-links fixed-nav-links">
                             <li><a href="#" class="link-holder fb"><i class="lab la-facebook-f"></i></a></li>
@@ -249,9 +245,41 @@
 
 <style>
 
+    header
+    {
+        position: relative;
+        z-index: 101;
+        background: white;
+        height: 105px;
+        display: flex;
+        align-items: center;
+    }
+
+    header .navbar-brand img
+    {
+        max-width: 85%;
+    }
+
+    header .main-navigation nav .navbar-nav .nav-item .nav-link
+    {
+        font-size: 12px;
+    }
+
     .top-personal-info
     {
         display: none;
+    }
+
+    .top-personal-info a
+    {
+        font-size: 12px;
+    }
+
+    .top-personal-info a i
+    {
+        font-size: 15px;
+        position: relative;
+        top: 1px;
     }
 
     @media (min-width: 992px)
@@ -263,7 +291,7 @@
 
         .top-personal-info
         {
-            display: flex;
+            display: block;
         }
     }
 
@@ -275,8 +303,8 @@
     .dropbtn {
         background-color: white;
         /*color: white;
-        padding: 16px;
-        font-size: 16px;*/
+        padding: 16px;*/
+        font-size: 12px;
         border: none;
     }
 

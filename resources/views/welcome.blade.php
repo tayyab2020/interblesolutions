@@ -61,7 +61,7 @@
     <!--About sec start-->
     <section class="about-sec" id="about-sec">
         <div class="about-overlay"></div>
-        <div class="container">
+        <div style="max-width: 100%;" class="container">
             <div class="row">
                 <div class="col-12 col-lg-6 services-area padding-top padding-bottom">
                     <div class="purple-overlay"></div>
@@ -504,5 +504,14 @@
     <!--Scroll Top Start-->
     <span class="scroll-top-arrow"><i class="fas fa-angle-up"></i></span>
     <!--Scroll Top End-->
+
+    <style>
+
+        .slider-area .bg-overlay
+        {
+            width: 100%;
+        }
+
+    </style>
 
 @endsection
