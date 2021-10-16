@@ -460,7 +460,7 @@
         font-family: inherit;
     }
 
-    .navbar-nav .dropdown-content
+    .side-menu .navbar-nav .dropdown-content
     {
         position: relative;
     }
