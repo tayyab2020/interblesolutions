@@ -294,6 +294,11 @@
         color: black !important;
     }
 
+    .side-menu .btn-close::before, .side-menu .btn-close::after
+    {
+        background-color: black;
+    }
+    
     .side-menu-inner-content
     {
         border-bottom: solid 1px rgb(0 0 0 / 50%);
