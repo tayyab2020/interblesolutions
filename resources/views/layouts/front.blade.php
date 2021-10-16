@@ -278,9 +278,25 @@
         font-size: 12px;
     }
 
-    body, header, footer, .header-appear
+    body, header, footer, .header-appear, .side-menu .bg-overlay
     {
         background: #FEFEE3;
+    }
+
+    .side-menu .side-nav .navbar-nav .nav-link
+    {
+        color: black;
+        font-weight: 500;
+    }
+
+    .side-menu .menu-company-details span, .side-menu .social-icons-simple li a, .side-menu p
+    {
+        color: black !important;
+    }
+
+    .side-menu-inner-content
+    {
+        border-bottom: solid 1px rgb(0 0 0 / 50%);
     }
 
     .about-sec .services-area .purple-overlay
