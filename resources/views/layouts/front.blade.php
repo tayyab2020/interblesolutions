@@ -263,7 +263,6 @@
     {
         position: relative;
         z-index: 101;
-        background: white;
         height: 105px;
         display: flex;
         align-items: center;
@@ -277,6 +276,26 @@
     header .main-navigation nav .navbar-nav .nav-item .nav-link
     {
         font-size: 12px;
+    }
+
+    body, header, footer, .header-appear
+    {
+        background: #FEFEE3;
+    }
+
+    .about-sec .services-area .purple-overlay
+    {
+        background-color: #4EA699;
+    }
+
+    .about-sec .about-area
+    {
+        background-color: #FF928B;
+    }
+
+    .slider-area .bg-overlay, .slider-area .container .inner-bg-overlay
+    {
+        background-color: #315659;
     }
 
     .top-personal-info
@@ -304,7 +323,22 @@
 
     .header-appear .fixed-nav-logo img
     {
-        width: 70%;
+        width: 85%;
+    }
+
+    .team-sec .left-overlay, .team-sec .inner-team-sec
+    {
+        background-color: #315659;
+    }
+
+    .testimonial-sec .right-overlay, .testimonial-sec .testimonial-area
+    {
+        background-color: #4EA699;
+    }
+
+    .blog-sec .left-overlay, .blog-sec .blog-inner-overlay
+    {
+        background-color: #FF928B;
     }
 
     .header-appear .sidemenu_btn
