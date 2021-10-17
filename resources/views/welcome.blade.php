@@ -512,6 +512,11 @@
             width: 100%;
         }
 
+        .slider-area
+        {
+            margin-top: 0 !important;
+        }
+
     </style>
 
 @endsection
