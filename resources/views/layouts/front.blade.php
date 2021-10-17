@@ -467,6 +467,24 @@
         background-color: #FF928B;
     }
 
+    .loader-32 .ball
+    {
+        border: 1px solid #315659;
+        background-color: #315659;
+    }
+
+    .loader-32 .ball-wrapper:nth-child(2) .ball
+    {
+        border: 1px solid #4EA699;
+        background-color: #4EA699;
+    }
+
+    .loader-32 .ball-wrapper:nth-child(3) .ball
+    {
+        border: 1px solid #FF928B;
+        background-color: #FF928B;
+    }
+
     .dropdown {
         position: relative;
         display: inline-block;
