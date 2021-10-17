@@ -447,6 +447,11 @@
         display: flex;
     }
 
+    header .main-navigation nav .navbar-nav .nav-item .nav-link:hover, .dropbtn:hover
+    {
+        color: #FF928B !important;
+    }
+
     .dropdown {
         position: relative;
         display: inline-block;
