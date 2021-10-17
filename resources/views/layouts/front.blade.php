@@ -29,6 +29,7 @@
     <!-- Style Sheet -->
     <link href="creative-startup/css/blog.css" rel="stylesheet">
     <link href="creative-startup/css/style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -262,6 +263,7 @@
         height: 105px;
         display: flex;
         align-items: center;
+        font-family: "Poppins", sans-serif;
     }
 
     header .navbar-brand img
@@ -453,24 +455,89 @@
     .dropdown-content {
         display: none;
         position: absolute;
-        background-color: #f1f1f1;
-        min-width: 160px;
+        min-width: 125px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1000;
         border-radius: 5px;
-        padding: 15px 0;
+        padding: 0;
+        animation: growOut 300ms ease-in-out forwards;
+        transform-origin: top center;
+        background-color: #989898;
+        top: 25px;
+    }
+
+    .dropdown-content:after
+    {
+        content: '';
+        display: block;
+        height: 0;
+        width: 0;
+        position: absolute;
+        top: -10px;
+        left: 25%;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 10px solid #989898;
+    }
+
+    @keyframes growOut {
+
+        0%
+        {
+            transform: scale(0);
+        }
+
+        80%
+        {
+            transform: scale(1.1);
+        }
+
+        100%
+        {
+            transform: scale(1);
+        }
+
+    }
+
+    .side-menu .navbar-nav .dropdown-content
+    {
+        top: 0;
+    }
+
+    .side-menu .navbar-nav .dropdown-content:after
+    {
+        display: none;
+    }
+
+    .side-menu .navbar-nav .dropdown-content a:after
+    {
+        display: none;
     }
 
     .dropdown-content a {
-        color: black;
-        padding: 12px 16px;
+        color: white;
+        padding: 0.6rem 0.5rem;
         text-decoration: none;
         display: block;
         font-weight: 400;
-        font-family: Averta, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        white-space: nowrap;
+        clear: both;
+        font-size: 13px;
+        font-family: "Poppins", sans-serif;
     }
 
-    .dropdown-content a:hover {background-color: #ee27371f;-webkit-transform: translate(0, 11%) scale(1);transform: translate(0, 11%) scale(1);}
+    .dropdown-content a:after
+    {
+        content: '';
+        background: #EBEBEB;
+        background: -webkit-linear-gradient(right, #EBEBEB 0%, transparent 100%);
+        background: linear-gradient(to right, #EBEBEB 0%, transparent 100%);
+        display: block;
+        height: 1px;
+        width: 100%;
+    }
+
+    .dropdown-content a:hover {background-color: transparent;margin-left: 5px;text-shadow: 1px 2px 3px #000000b0;}
 
     .dropdown:hover .dropdown-content {display: block;}
 
