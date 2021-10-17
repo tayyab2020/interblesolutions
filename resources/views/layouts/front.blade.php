@@ -111,9 +111,7 @@
                                     <li class="nav-item active"><a class="nav-link" href="{{url('/')}}">Home</a></li>
                                     <li class="nav-item active"><a class="nav-link" href="{{url('/')}}">Resume Writing</a></li>
                                     <li class="nav-item dropdown">
-                                        <button class="dropbtn">BPO Services
-                                            <i class="fa fa-caret-down"></i>
-                                        </button>
+                                        <button class="dropbtn">BPO Services</button>
                                         <div class="dropdown-content">
                                             <a href="#">Link 1</a>
                                             <a href="#">Link 2</a>
@@ -131,7 +129,7 @@
                                     <li class="nav-item"><a class="nav-link scroll" href="#contact-sec">CONTACT</a></li>--}}
                                 </ul>
 
-                                <ul class="top-personal-info" style="list-style: none;width: auto;margin-bottom: 10px;margin-left: 20px;">
+                                <ul class="top-personal-info" style="list-style: none;width: auto;margin-left: 20px;">
                                     <li style="border: 1px solid #929292;padding: 5px 15px;border-radius: 5px;">
                                         <a style="font-weight: 500;" href="tel:+18053545622"><i class="las la-phone"></i> +1 805-354-5622</a>
                                     </li>
@@ -175,9 +173,7 @@
                                     <a class="nav-link scroll" href="{{url('/')}}">Resume Writing</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <button class="nav-link scroll dropbtn">BPO Services
-                                        <i class="fa fa-caret-down"></i>
-                                    </button>
+                                    <button class="nav-link scroll dropbtn">BPO Services</button>
                                     <div class="dropdown-content">
                                         <a href="#">Link 1</a>
                                         <a href="#">Link 2</a>
@@ -275,7 +271,7 @@
 
     header .main-navigation nav .navbar-nav .nav-item .nav-link
     {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     body, header, footer, .header-appear, .side-menu .bg-overlay
@@ -298,7 +294,7 @@
     {
         background-color: black;
     }
-    
+
     .side-menu-inner-content
     {
         border-bottom: solid 1px rgb(0 0 0 / 50%);
@@ -327,6 +323,17 @@
     .top-personal-info a
     {
         font-size: 12px;
+    }
+
+    .top-personal-info li:hover
+    {
+        border: 1px solid #ee2737a6 !important;
+        background: #ee2737a6;
+    }
+
+    .top-personal-info li:hover a
+    {
+        color: white;
     }
 
     .top-personal-info a i
@@ -396,7 +403,7 @@
 
     }
 
-    @media (max-width: 1135px)
+    @media (max-width: 1200px)
     {
         .navbar-expand-lg .navbar-collapse
         {
@@ -409,7 +416,7 @@
         }
     }
 
-    @media (min-width: 1135px)
+    @media (min-width: 1200px)
     {
         .sidemenu_btn
         {
@@ -431,8 +438,11 @@
         background-color: transparent;
         /*color: white;
         padding: 16px;*/
-        font-size: 12px;
+        font-size: 16px;
         border: none;
+        padding-top: 0;
+        padding-bottom: 0;
+        display: flex;
     }
 
     .dropdown {
@@ -447,6 +457,8 @@
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1000;
+        border-radius: 5px;
+        padding: 15px 0;
     }
 
     .dropdown-content a {
@@ -454,15 +466,49 @@
         padding: 12px 16px;
         text-decoration: none;
         display: block;
+        font-weight: 400;
+        font-family: Averta, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     }
 
-    .dropdown-content a:hover {background-color: #ddd;}
+    .dropdown-content a:hover {background-color: #ee27371f;-webkit-transform: translate(0, 11%) scale(1);transform: translate(0, 11%) scale(1);}
 
     .dropdown:hover .dropdown-content {display: block;}
+
+    .dropbtn:after, .side-nav .navbar-nav .dropbtn::after
+    {
+        content: "\f107";
+        font-family: "Font Awesome 5 Free";
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transition: -webkit-transform 0.1s ease;
+        transition: -webkit-transform 0.1s ease;
+        transition: transform 0.1s ease;
+        transition: transform 0.1s ease, -webkit-transform 0.1s ease;
+        display: inline-block;
+        font-weight: 900;
+        margin-left: 5px;
+        position: relative;
+        width: auto;
+        height: auto;
+        background-color: transparent;
+        vertical-align: middle;
+    }
+
+    .side-nav .navbar-nav .dropbtn:hover::after, .side-nav .navbar-nav .dropbtn:focus::after, .side-nav .navbar-nav .dropbtn.active::after
+    {
+        width: auto;
+    }
+
+    .dropdown:hover .dropbtn::after
+    {
+        -webkit-transform: rotateZ(180deg);
+        transform: rotateZ(180deg);
+    }
 
     header .main-navigation nav .navbar-nav .nav-item .nav-link
     {
         font-family: inherit;
+        padding: 0;
     }
 
     .side-menu .navbar-nav .dropdown-content
