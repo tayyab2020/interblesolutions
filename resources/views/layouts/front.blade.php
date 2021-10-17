@@ -452,6 +452,21 @@
         color: #FF928B !important;
     }
 
+    .bg-red
+    {
+        background-color: #315659;
+    }
+
+    .bg-purple
+    {
+        background-color: #4EA699;
+    }
+
+    .bg-green
+    {
+        background-color: #FF928B;
+    }
+
     .dropdown {
         position: relative;
         display: inline-block;
