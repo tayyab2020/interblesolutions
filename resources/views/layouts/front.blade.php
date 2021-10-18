@@ -95,10 +95,10 @@
                 <div class="row">
 
                     <div style="margin-top: 0;display: flex;align-items: center;" class="col-7 col-lg-3">
-                        <a style="background-color: transparent;padding: 0;text-align: left;" class="navbar-brand simple-nav-logo" href="index-creative-startup.html">
+                        <a style="background-color: transparent;padding: 0;text-align: left;" class="navbar-brand simple-nav-logo" href="{{'/'}}">
                             <img src="creative-startup/img/White and Orange Circle Icon Internet Logo (11).png" alt="logo">
                         </a>
-                        <a class="navbar-brand fixed-nav-logo" href="index-creative-startup.html">
+                        <a class="navbar-brand fixed-nav-logo" href="{{'/'}}">
                             <img src="creative-startup/img/White and Orange Circle Icon Internet Logo (11).png" alt="logo">
                         </a>
                     </div>
@@ -162,7 +162,7 @@
             <div class="container">
                 <div class="row w-100 side-menu-inner-content">
                     <div class="col-12 d-flex justify-content-center align-items-center">
-                        <a href="index-creative-startup.html" class="navbar-brand"><img src="creative-startup/img/White and Orange Circle Icon Internet Logo (11).png" alt="logo"></a>
+                        <a href="{{'/'}}" class="navbar-brand"><img src="creative-startup/img/White and Orange Circle Icon Internet Logo (11).png" alt="logo"></a>
                     </div>
                     <div class="col-12 col-lg-8">
                         <nav class="side-nav w-100">
@@ -324,13 +324,13 @@
 
     .top-personal-info a
     {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .top-personal-info li:hover
     {
-        border: 1px solid #ee2737a6 !important;
-        background: #ee2737a6;
+        border: 1px solid #FF928B !important;
+        background: #FF928B;
     }
 
     .top-personal-info li:hover a
@@ -447,7 +447,7 @@
         display: flex;
     }
 
-    header .main-navigation nav .navbar-nav .nav-item .nav-link:hover, .dropbtn:hover
+    header .main-navigation nav .navbar-nav .nav-item .nav-link:hover
     {
         color: #FF928B !important;
     }
@@ -578,6 +578,8 @@
     .dropdown-content a:hover {background-color: transparent;margin-left: 5px;text-shadow: 1px 2px 3px #000000b0;}
 
     .dropdown:hover .dropdown-content {display: block;}
+
+    .dropdown:hover .dropbtn {color: #FF928B !important;}
 
     .dropbtn:after, .side-nav .navbar-nav .dropbtn::after
     {
