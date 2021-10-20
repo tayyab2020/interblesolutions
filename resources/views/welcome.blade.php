@@ -41,7 +41,7 @@
                 </div>
                 <div class="slider-img col-12 col-lg-6 wow fadeInRight" data-wow-delay=".8s" data-depth="0.1">
                     <div class="img-slide">
-                        <img style="width: 85px;height: 90px;" src="creative-startup/img/businesswoman-call-center-office.jpg">
+                        <img src="creative-startup/img/businesswoman-call-center-office.jpg">
                     </div>
                     <div class="img-slide">
                         <img src="creative-startup/img/businessman-resume.jpg">
@@ -70,7 +70,7 @@
                         <div class="col-12 col-lg-6 services text-center">
                             <div class="service-card">
                                 <div class="icon-holder">
-                                    <img src="creative-startup/img/Asset 3@4x.png">
+                                    <img style="width: 85px;height: 90px;" src="creative-startup/img/Asset 3@4x.png">
                                 </div>
                                 <h4 class="card-heading">Make Business</h4>
                             </div>

@@ -299,9 +299,6 @@ if($(".scroll").length) {
      ====================================== */
     $(document).ready(function(){
         $('.slider-detail').slick({
-            autoplay: true,
-            autoplaySpeed: 5000,
-            infinite: true,
             slidesToShow: 1,
             slidesToScroll: 1,
             arrows: false,
