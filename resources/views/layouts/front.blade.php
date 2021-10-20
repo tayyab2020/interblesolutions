@@ -668,7 +668,7 @@
 <script src="creative-startup/js/circle-progress.min.js"></script>
 
 <script src="vendor/js/contact_us.js"></script>
-<script src="creative-startup/js/script.js"></script>
+<script src="creative-startup/js/script.js?v=1"></script>
 
 </body>
 </html>
