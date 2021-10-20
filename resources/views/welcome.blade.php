@@ -31,7 +31,7 @@
                     <div class="slider-slide">
                         <div class="slider-inner-content">
                             <h4 class="slide-heading">Building <span>Creative Websites</span></h4>
-                            <p class="slide-text">"The internet has gone from a technical wonder to business must" <br>
+                            <p class="slide-text">"The internet has gone from a technical wonder to a business must" <br>
                                 Don't stay behind and get a website for your business today! Interble Solutions is here to provide you with top-notch Web Designing services.</p>
                             <a href="#about-sec" class="btn anim-btn rounded-pill scroll">LEARN MORE
                                 <span></span><span></span><span></span><span></span>
