@@ -12,8 +12,8 @@
                 <div class="slider-detail col-12 col-lg-6 text-center text-lg-left wow fadeInLeft" data-wow-delay=".8s">
                     <div class="slider-slide">
                         <div class="slider-inner-content">
-                            <h4 class="slide-heading">CREATIVE <span>DIGITAL AGENCY</span></h4>
-                            <p class="slide-text">Lorem ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry’s standard dummy.  Lorem Ipsum has been the industry’s standard dummy.</p>
+                            <h4 class="slide-heading">Providing <span>Business Solutions</span></h4>
+                            <p class="slide-text">We at Interble Solutions aim to provide the finest Business Process Outsourcing (BPO) services to businesses; specializing in Lead Generation, Email/Chat Support and Customer Care!</p>
                             <a href="#about-sec" class="btn anim-btn rounded-pill scroll">LEARN MORE
                                 <span></span><span></span><span></span><span></span>
                             </a>
@@ -21,8 +21,8 @@
                     </div>
                     <div class="slider-slide">
                         <div class="slider-inner-content">
-                            <h4 class="slide-heading">MODREN <span>CREATIVE STUDIO</span></h4>
-                            <p class="slide-text">Lorem Ipsum has been the industry’s standard dummy. Lorem ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry’s standard dummy.</p>
+                            <h4 class="slide-heading">Professional <span>Resume/CV Writing</span></h4>
+                            <p class="slide-text">Providing top-notch Resume Writing Services! <br> Struggling to write the perfect resume? Look no further. Contact us and get your resume written by a professional!</p>
                             <a href="#about-sec" class="btn anim-btn rounded-pill scroll">LEARN MORE
                                 <span></span><span></span><span></span><span></span>
                             </a>
@@ -30,8 +30,8 @@
                     </div>
                     <div class="slider-slide">
                         <div class="slider-inner-content">
-                            <h4 class="slide-heading">STARTUP <span>MODERN WORKS</span></h4>
-                            <p class="slide-text">Lorem Ipsum has been the industry’s standard dummy.  Lorem Ipsum has been the industry’s standard dummy. Lorem ipsum is simply dummy text of the printing and typesetting.</p>
+                            <h4 class="slide-heading">Building <span>Creative Websites</span></h4>
+                            <p class="slide-text">"The internet has gone from a technical wonder to business must" Don't stay behind and get a website for your business today! Interble Solutions is here to provide you with top-notch Web Designing services.</p>
                             <a href="#about-sec" class="btn anim-btn rounded-pill scroll">LEARN MORE
                                 <span></span><span></span><span></span><span></span>
                             </a>
@@ -40,13 +40,13 @@
                 </div>
                 <div class="slider-img col-12 col-lg-6 wow fadeInRight" data-wow-delay=".8s" data-depth="0.1">
                     <div class="img-slide">
-                        <img src="creative-startup/img/slide1.jpg">
+                        <img src="creative-startup/img/businesswoman-call-center-office.jpg">
                     </div>
                     <div class="img-slide">
-                        <img src="creative-startup/img/slide2.jpg">
+                        <img src="creative-startup/img/businessman-resume.jpg">
                     </div>
                     <div class="img-slide">
-                        <img src="creative-startup/img/slide3.jpg">
+                        <img src="creative-startup/img/web-design-internet-website-responsive-software-concept.jpg">
                     </div>
                 </div>
             </div>
