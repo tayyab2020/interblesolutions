@@ -312,9 +312,16 @@
         background-color: #FF928B;
     }
 
-    .slider-area .bg-overlay, .slider-area .container .inner-bg-overlay
+    .slider-area .bg-overlay
     {
-        background-color: #315659;
+        /*background-color: #315659;*/
+        background-image: url("creative-startup/img/Untitled design.png");
+        background-size: 100% 100%;
+    }
+
+    .slider-area .container .inner-bg-overlay
+    {
+        background: transparent;
     }
 
     .top-personal-info
