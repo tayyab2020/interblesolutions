@@ -13,7 +13,7 @@
                     <div class="slider-slide">
                         <div class="slider-inner-content">
                             <h4 class="slide-heading">Providing <span>Business Solutions</span></h4>
-                            <p class="slide-text">We at Interble Solutions aim to provide the finest Business Process Outsourcing (BPO) services to businesses; specializing in Lead Generation, Email/Chat Support and Customer Care!</p>
+                            <p class="slide-text">We at <b>Interble Solutions</b> aim to provide the finest Business Process Outsourcing (BPO) services to businesses; specializing in Lead Generation, Email/Chat Support and Customer Care!</p>
                             <a href="#about-sec" class="btn anim-btn rounded-pill scroll">LEARN MORE
                                 <span></span><span></span><span></span><span></span>
                             </a>
@@ -31,7 +31,8 @@
                     <div class="slider-slide">
                         <div class="slider-inner-content">
                             <h4 class="slide-heading">Building <span>Creative Websites</span></h4>
-                            <p class="slide-text">"The internet has gone from a technical wonder to business must" Don't stay behind and get a website for your business today! Interble Solutions is here to provide you with top-notch Web Designing services.</p>
+                            <p class="slide-text">"The internet has gone from a technical wonder to business must" <br>
+                                Don't stay behind and get a website for your business today! Interble Solutions is here to provide you with top-notch Web Designing services.</p>
                             <a href="#about-sec" class="btn anim-btn rounded-pill scroll">LEARN MORE
                                 <span></span><span></span><span></span><span></span>
                             </a>
@@ -69,7 +70,7 @@
                         <div class="col-12 col-lg-6 services text-center">
                             <div class="service-card">
                                 <div class="icon-holder">
-                                    <i class="lni lni-briefcase"></i>
+                                    <img src="creative-startup/img/Asset 3@4x.png">
                                 </div>
                                 <h4 class="card-heading">Make Business</h4>
                             </div>
