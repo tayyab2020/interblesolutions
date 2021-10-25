@@ -101,13 +101,6 @@
             border-radius: 50%;
         }
 
-        img {
-            display: inline;
-            margin: 0 auto;
-            height: 100%;
-            width: auto;
-        }
-
         .testimonial-sec .right-overlay, .testimonial-sec .testimonial-area
         {
             background-image: url("creative-startup/img/Untitled design.png");
