@@ -72,31 +72,31 @@
                                 <div class="icon-holder">
                                     <img style="width: 85px;height: 90px;" src="creative-startup/img/Asset 3@4x.png">
                                 </div>
-                                <h4 class="card-heading">Make Business</h4>
+                                <h4 class="card-heading">Customer Support</h4>
                             </div>
                         </div>
                         <div class="col-12 col-lg-6 services text-center">
                             <div class="service-card">
                                 <div class="icon-holder">
-                                    <i class="lni lni-bulb"></i>
+                                    <img style="width: 85px;height: 90px;" src="creative-startup/img/curriculum.png">
                                 </div>
-                                <h4 class="card-heading">Agency Ideas</h4>
+                                <h4 class="card-heading">Resume Writing</h4>
                             </div>
                         </div>
                         <div class="col-12 col-lg-6 services text-center">
                             <div class="service-card">
                                 <div class="icon-holder">
-                                    <i class="lni lni-heart"></i>
+                                    <img style="width: 85px;height: 90px;" src="creative-startup/img/web.png">
                                 </div>
-                                <h4 class="card-heading">Our Hardwork</h4>
+                                <h4 class="card-heading">Web Development</h4>
                             </div>
                         </div>
                         <div class="col-12 col-lg-6 services text-center">
                             <div class="service-card">
                                 <div class="icon-holder">
-                                    <i class="las la-wallet"></i>
+                                    <img style="width: 85px;height: 90px;" src="creative-startup/img/conversation.png">
                                 </div>
-                                <h4 class="card-heading">Make Money</h4>
+                                <h4 class="card-heading">Chat Support</h4>
                             </div>
                         </div>
                     </div>

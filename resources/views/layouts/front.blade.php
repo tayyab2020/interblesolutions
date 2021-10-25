@@ -368,11 +368,6 @@
         background-color: #315659;
     }
 
-    .testimonial-sec .right-overlay, .testimonial-sec .testimonial-area
-    {
-        background-color: #4EA699;
-    }
-
     .blog-sec .left-overlay, .blog-sec .blog-inner-overlay
     {
         background-color: #FF928B;
