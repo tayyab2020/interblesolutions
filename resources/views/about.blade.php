@@ -18,7 +18,7 @@
                             </div>
                         </div>
                         <div style="display: flex;align-items: center;" class="col-12 col-lg-6">
-                            <div style="display: flex;flex-direction: column;align-items: flex-end;text-align: right;">
+                            <div id="movediv-container" style="display: flex;flex-direction: column;align-items: flex-end;text-align: right;">
                                 <div id="movediv" class="image-cropper wow fadeInRight" data-wow-delay=".8s" data-depth="0.1">
                                     <img src="https://via.placeholder.com/150" />
                                 </div>
@@ -33,6 +33,22 @@
 
 
     <style>
+
+        @media (max-width: 992px){
+
+            #movediv-container
+            {
+                align-items: center !important;
+                text-align: center !important;
+            }
+
+            #movediv
+            {
+                width: 200px !important;
+                height: 200px !important;
+            }
+        }
+
         blockquote::before,
         blockquote::after {
             animation: dancing 1s linear infinite;
