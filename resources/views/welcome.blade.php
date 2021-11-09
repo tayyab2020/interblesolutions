@@ -4,16 +4,36 @@
 
     <!--SLider sec start-->
     <section class="slider-area">
-        <div style="width: 100%;box-shadow: rgb(0 0 0 / 35%) 0px 0px 14px 3px;display: flex;z-index: 100;position: relative;"></div>
-        <div class="bg-overlay"></div>
-        <div class="container position-relative">
-            <div class="inner-bg-overlay"></div>
+        
+        <div style="display: flex;justify-content: center;align-items: center;" class="bg-overlay">
+            <h1 style="color: white;font-family: 'Poppins';font-size: 50px;text-align: center;margin-bottom: 140px;">
+            <span>EXCEPTIONAL</span> <span style="font-weight: 600;">BUSINESS PROCESS OUTSOURCING</span>
+            <br>
+            <span style="font-weight: 400;">FOR YOUR COMPANY’S GROWTH!</span>
+            </h1>
+        </div>
+        
+    </section>
+    <!--SLider sec End-->
+
+    <section style="display: flex;flex-direction: column;justify-content: center;align-items: center;" class="slider-area">
+
+    <div style="background-image: url('creative-startup/img/network background.png');" class="bg-overlay"></div>
+
+    <div style="position: absolute;display: block;margin: 0;top: 60px;" class="row">
+        <div style="display: flex;justify-content: center;align-items: center;">
+            <span style="height: 45px;border-left: 7px solid #01D464;margin-right: 10px;"></span><span style="font-weight: 700;color: #30333F;font-family: 'Poppins';font-size: 55px;">OUR</span> <span style="font-weight: 700;color: #01D464;font-family: 'Poppins';font-size: 55px;margin-left: 10px;">SERVICES</span>
+        </div>
+    </div>
+
+    <div style="padding-bottom: 0;" class="container position-relative">
+
             <div class="row">
                 <div class="slider-detail col-12 col-lg-6 text-center text-lg-left wow fadeInLeft" data-wow-delay=".8s">
                     <div class="slider-slide">
                         <div class="slider-inner-content">
-                            <h4 class="slide-heading">Providing <span>Business Solutions</span></h4>
-                            <p class="slide-text">We at <b>Interble Solutions</b> aim to provide the finest Business Process Outsourcing (BPO) services to businesses; specializing in Lead Generation, Email/Chat Support and Customer Care!</p>
+                            <h4 class="slide-heading">Providing <span>Customer Support</span></h4>
+                            <p class="slide-text">We at <b>Interble Solutions</b> We at Interble Solutions aim to provide the finest Business Process Outsourcing (BPO) services to businesses; specializing in Lead Generation, Email/Chat Support and Inbound/Outbound calls!</p>
                             <a href="#about-sec" class="btn anim-btn rounded-pill scroll">LEARN MORE
                                 <span></span><span></span><span></span><span></span>
                             </a>
@@ -22,7 +42,8 @@
                     <div class="slider-slide">
                         <div class="slider-inner-content">
                             <h4 class="slide-heading">Professional <span>Resume/CV Writing</span></h4>
-                            <p class="slide-text">Providing top-notch Resume Writing Services! <br> Struggling to write the perfect resume? Look no further. Contact us and get your resume written by a professional!</p>
+                            <p class="slide-text">Providing top-notch Resume Writing Services! <br>
+                            Struggling to write the perfect resume? Look no further. Contact us and get your resume written by a professional in affordable rates!</p>
                             <a href="#about-sec" class="btn anim-btn rounded-pill scroll">LEARN MORE
                                 <span></span><span></span><span></span><span></span>
                             </a>
@@ -32,7 +53,7 @@
                         <div class="slider-inner-content">
                             <h4 class="slide-heading">Building <span>Creative Websites</span></h4>
                             <p class="slide-text">"The internet has gone from a technical wonder to a business must" <br>
-                                Don't stay behind and get a website for your business today! Interble Solutions is here to provide you with top-notch Web Designing services.</p>
+                                Don't stay behind and get a website for your business today! <b>Interble Solutions</b> is here to provide you with top-notch Web Designing services.</p>
                             <a href="#about-sec" class="btn anim-btn rounded-pill scroll">LEARN MORE
                                 <span></span><span></span><span></span><span></span>
                             </a>
@@ -41,13 +62,13 @@
                 </div>
                 <div class="slider-img col-12 col-lg-6 wow fadeInRight" data-wow-delay=".8s" data-depth="0.1">
                     <div class="img-slide">
-                        <img src="creative-startup/img/businesswoman-call-center-office.jpg">
+                        <img src="creative-startup/img/young-woman-coming-with-energy-innovations.jpg">
                     </div>
                     <div class="img-slide">
-                        <img src="creative-startup/img/businessman-resume.jpg">
+                        <img src="creative-startup/img/resume-table-office-business.jpg">
                     </div>
                     <div class="img-slide">
-                        <img src="creative-startup/img/web-design-internet-website-responsive-software-concept.jpg">
+                        <img src="creative-startup/img/professional-developer-programmer-working-software-website-design-coding-technology-writing-codes-database-company-office-global-cyber-connection-technology.jpg">
                     </div>
                 </div>
             </div>
@@ -56,11 +77,11 @@
                 <a href="javascript:void(0);" class="slider-arr slider-arr-down" id="slider-arr-down"><i class="fas fa-angle-down"></i></a>
             </div>
         </div>
+
     </section>
-    <!--SLider sec End-->
 
     <!--About sec start-->
-    <section class="about-sec" id="about-sec">
+    <!--<section class="about-sec" id="about-sec">
 
         <div style="max-width: 100%;" class="container">
             <div class="row">
@@ -119,39 +140,64 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
     <!--About sec End-->
 
     <!--Stats sec start-->
-    <section class="stats-sec padding-top padding-bottom" id="stats-sec">
+    <section style="background-color: #30333F;" class="stats-sec padding-top padding-bottom" id="stats-sec">
         <div class="container">
             <div class="row">
                 <div class="col-12 stats-heading-area text-center">
-                    <span class="sub-heading">Lorem ipsum is simply dummy text </span>
-                    <h4 class="heading">AGENCY STATS & FACTS</h4>
-                    <p class="text">
-                        Lorem ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry’s standard dummy.  Lorem Ipsum has been the industry’s standard dummy. Lorem ipsum is simply dummy text of the printing and typesetting.
-                    </p>
+                    <div style="display: flex;justify-content: center;align-items: center;">
+                        <span style="height: 45px;border-left: 7px solid #01D464;margin-right: 10px;"></span><span style="font-weight: 700;color: #FFFFFF;font-family: 'Poppins';font-size: 55px;">OUR</span> <span style="font-weight: 700;color: #01D464;font-family: 'Poppins';font-size: 55px;margin-left: 10px;">BPO</span> <span style="font-weight: 700;color: #FFFFFF;font-family: 'Poppins';font-size: 55px;margin-left: 10px;">STATISTICS</span>
+                    </div>
+                    <div style="display: flex;justify-content: center;align-items: center;margin-top: 20px;">
+                        <span style="font-weight: 300;color: #FFFFFF;font-family: 'Poppins';font-size: 26px;line-height: 1.2;">Changing the game with our <br> unmatchable productivity rate</span>
+                    </div>
                 </div>
             </div>
             <div class="row circular-wrap text-center">
                 <div class="col-12 col-lg-4 wow bounceIn">
-                    <div id="circle" class="circle" data-value="0.77">
-                        <h6 class="counter-num">257%</h6>
-                    </div>
-                    <h4 class="darkcolor">Increase in Sales year on year</h4>
+                    <img style="width: 75%;" src="creative-startup/img/Asset 1@4x.png">
+                    <img style="width: 45%;margin-top: 70px;" src="creative-startup/img/call2 (2).png">
                 </div>
                 <div class="col-12 col-lg-4 wow bounceIn">
-                    <div id="circletwo" class="circle" data-value="0.96">
-                        <h6 class="counter-num">96%</h6>
-                    </div>
-                    <h4 class="darkcolor">Recommendation rate over the year</h4>
+                    <img style="width: 75%;" src="creative-startup/img/calls@4x.png">
+                    <img style="width: 45%;margin-top: 50px;" src="creative-startup/img/call2 (1).png">
                 </div>
                 <div class="col-12 col-lg-4 wow bounceIn">
-                    <div id="circlethree" class="circle" data-value="0.75">
-                        <h6 class="counter-num">317%</h6>
-                    </div>
-                    <h4 class="darkcolor">New ventures we became part of</h4>
+                    <img style="width: 75%;" src="creative-startup/img/chats@4x.png">
+                    <img style="width: 45%;margin-top: 50px;" src="creative-startup/img/conversation3.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slider-area" style="padding: 0;">
+
+    <div style="background-image: url('creative-startup/img/Untitled design (3).png');" class="bg-overlay"></div>
+
+    <div style="display: flex;justify-content: center;align-items: center;position: relative;margin-top: 50px;">
+        <div style="font-weight: 700;color: #30333F;font-family: 'Poppins';font-size: 55px;line-height: 1.2;text-align: center;"> 
+            <div style="float: left;">
+                <span style="height: 45px;border-left: 7px solid #01D464;margin-right: 20px;"></span>
+            </div> CHOOSE THE <span style="color: #01D464;">OUTSOURCING</span> SERVICES <br> YOUR NEED!
+        </div>
+    </div>
+
+        <div style="max-width: 85%;padding-top: 150px;" class="container">
+            <div class="row circular-wrap text-center">
+                <div class="col-12 col-lg-4 wow bounceIn">
+                    <img style="width: 55%;" src="creative-startup/img/headphones.png">
+                    <span style="font-size: 26px;font-family: 'Poppins';color: ##30333F;margin-top: 30px;">Customer Spport</span>
+                </div>
+                <div class="col-12 col-lg-4 wow bounceIn">
+                    <img style="width: 55%;" src="creative-startup/img/curriculum.png">
+                    <span style="font-size: 26px;font-family: 'Poppins';color: ##30333F;margin-top: 30px;">Resume/CV Writing</span>
+                </div>
+                <div class="col-12 col-lg-4 wow bounceIn">
+                    <img style="width: 55%;" src="creative-startup/img/code.png">
+                    <span style="font-size: 26px;font-family: 'Poppins';color: ##30333F;margin-top: 30px;">Website Development</span>
                 </div>
             </div>
         </div>
@@ -159,7 +205,7 @@
     <!--Stats sec End-->
 
     <!--Team sec start-->
-    <section class="team-sec position-relative" id="team-sec">
+    <!--<section class="team-sec position-relative" id="team-sec">
         <div class="left-overlay"></div>
         <div class="container">
             <div class="row inner-team-sec padding-top padding-bottom">
@@ -179,7 +225,6 @@
                                     <div class="img-holder position-relative">
                                         <img src="creative-startup/img/team1.jpg">
                                         <div class="overlay d-flex justify-content-center align-items-center">
-                                            <!--Team Social-->
                                             <ul class="team-social">
                                                 <li><a class="facebook-text-hvr" href="javascript:void(0);"><i class="lab la-facebook-f" aria-hidden="true"></i></a></li>
                                                 <li><a class="twitter-text-hvr" href="javascript:void(0);"><i class="lab la-twitter" aria-hidden="true"></i></a></li>
@@ -199,7 +244,6 @@
                                     <div class="img-holder position-relative">
                                         <img src="creative-startup/img/team2.jpg">
                                         <div class="overlay d-flex justify-content-center align-items-center">
-                                            <!--Team Social-->
                                             <ul class="team-social">
                                                 <li><a class="facebook-text-hvr" href="javascript:void(0);"><i class="lab la-facebook-f" aria-hidden="true"></i></a></li>
                                                 <li><a class="twitter-text-hvr" href="javascript:void(0);"><i class="lab la-twitter" aria-hidden="true"></i></a></li>
@@ -226,11 +270,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
     <!--Team sec End-->
 
     <!--portfolio section start-->
-    <section class="portfolio-sec company-portfolio-section padding-top" id="company-portfolio-section">
+    <!--<section class="portfolio-sec company-portfolio-section padding-top" id="company-portfolio-section">
         <div class="container">
             <div class="section-heading">
                 <div class="row">
@@ -337,11 +381,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
     <!--portfolio section end-->
 
     <!--testimonial section start-->
-    <div class="testimonial-sec padding-top position-relative" id="testimonial-sec">
+    <!--<div class="testimonial-sec padding-top position-relative" id="testimonial-sec">
         <div class="right-overlay"></div>
         <div class="container">
             <div class="testimonial-area padding-top padding-bottom">
@@ -389,11 +433,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
     <!--testimonial section end-->
 
     <!--sponsers section start-->
-    <div class="sponser-sec padding-top" id="sponser-sec">
+    <!--<div class="sponser-sec padding-top" id="sponser-sec">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -420,11 +464,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
     <!--sponsers section end-->
 
     <!--Blogs section start-->
-    <section class="blog-sec" id="blog-sec">
+    <!--<section class="blog-sec" id="blog-sec">
         <div class="left-overlay"></div>
         <div class="container position-relative">
             <div class="blog-inner-overlay"></div>
@@ -447,11 +491,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
     <!--Blogs section end-->
 
     <!--Contact section start-->
-    <section class="contact-sec padding-top padding-bottom" id="contact-sec">
+    <!--<section class="contact-sec padding-top padding-bottom" id="contact-sec">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-7">
@@ -492,18 +536,18 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
     <!--Contact section end-->
 
     <!--colored-lines-->
-    <div class="color-lines row no-gutters">
+    <!--<div class="color-lines row no-gutters">
         <div class="col-4 bg-red"></div>
         <div class="col-4 bg-purple"></div>
         <div class="col-4 bg-green"></div>
-    </div>
+    </div>-->
 
     <!--Scroll Top Start-->
-    <span class="scroll-top-arrow"><i class="fas fa-angle-up"></i></span>
+    <!--<span class="scroll-top-arrow"><i class="fas fa-angle-up"></i></span>-->
     <!--Scroll Top End-->
 
     <style>

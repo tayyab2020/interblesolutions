@@ -183,7 +183,7 @@ if($(".scroll").length) {
                 Mouse parallax
     ====================================== */
 
-    if($(window).width() > 780) {
+    /*if($(window).width() > 780) {
         $('.slider-area,.slider-sec,header').mousemove(function (e) {
             $('[data-depth]').each(function () {
                 var depth = $(this).data('depth');
@@ -195,7 +195,7 @@ if($(".scroll").length) {
                 });
             });
         });
-    }
+    }*/
     /* ===================================
       Owl Carousel
      ====================================== */

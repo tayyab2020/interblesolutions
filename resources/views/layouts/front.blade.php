@@ -96,10 +96,10 @@
 
                     <div style="margin-top: 0;display: flex;align-items: center;" class="col-7 col-lg-3">
                         <a style="background-color: transparent;padding: 0;text-align: left;" class="navbar-brand simple-nav-logo" href="{{'/'}}">
-                            <img src="creative-startup/img/White and Orange Circle Icon Internet Logo (11).png" alt="logo">
+                            <img src="creative-startup/img/White and Orange Circle Icon Internet Logo.png" alt="logo">
                         </a>
                         <a class="navbar-brand fixed-nav-logo" href="{{'/'}}">
-                            <img src="creative-startup/img/White and Orange Circle Icon Internet Logo (11).png" alt="logo">
+                            <img src="creative-startup/img/White and Orange Circle Icon Internet Logo.png" alt="logo">
                         </a>
                     </div>
 
@@ -109,30 +109,22 @@
                             <li class="collapse navbar-collapse" id="navbarSupportedContent">
 
                                 <ul class="navbar-nav ml-auto">
-                                    <li class="nav-item active"><a class="nav-link" href="{{url('/')}}">Home</a></li>
-                                    <li class="nav-item active"><a class="nav-link" href="{{url('/')}}">Resume Writing</a></li>
+                                    <li class="nav-item {{Route::currentRouteName() == 'home' ? 'active' : null}}"><a class="nav-link" href="{{url('/')}}">Home</a></li>
                                     <li class="nav-item dropdown">
-                                        <button class="dropbtn">BPO Services</button>
+                                        <button class="dropbtn">Services</button>
                                         <div class="dropdown-content">
                                             <a href="#">Link 1</a>
                                             <a href="#">Link 2</a>
                                             <a href="#">Link 3</a>
                                         </div>
                                     </li>
-                                    <li class="nav-item active"><a class="nav-link" href="{{url('/')}}">Web Development</a></li>
-                                    {{--<li class="nav-item active"><a class="nav-link" href="{{url('clients')}}">Clients</a></li>--}}
-                                    <li class="nav-item active"><a class="nav-link" href="{{url('about')}}">About</a></li>
-                                    <li class="nav-item active"><a class="nav-link" href="{{url('/')}}">Contact</a></li>
-                                    {{--<li class="nav-item"><a class="nav-link scroll" href="#about-sec">ABOUT</a></li>
-                                    <li class="nav-item"><a class="nav-link scroll" href="#company-portfolio-section">PORTFOLIO</a></li>
-                                    <li class="nav-item"><a class="nav-link scroll" href="#testimonial-sec">CLIENTS</a></li>
-                                    <li class="nav-item"><a class="nav-link scroll" href="#blog-sec">BLOG</a></li>
-                                    <li class="nav-item"><a class="nav-link scroll" href="#contact-sec">CONTACT</a></li>--}}
+                                    <li class="nav-item {{Route::currentRouteName() == 'home' ? 'about' : null}}"><a class="nav-link" href="{{url('about')}}">About</a></li>
+                                    <li class="nav-item {{Route::currentRouteName() == 'home' ? 'contact-us' : null}}"><a class="nav-link" href="{{url('/')}}">Contact Us</a></li>
                                 </ul>
 
-                                <ul class="top-personal-info" style="list-style: none;width: auto;margin-left: 20px;">
-                                    <li style="border: 1px solid #929292;padding: 5px 15px;border-radius: 5px;">
-                                        <a style="font-weight: 500;" href="tel:+18053545622"><i class="las la-phone"></i> +1 805-354-5622</a>
+                                <ul class="top-personal-info" style="list-style: none;width: auto;margin-left: 50px;">
+                                    <li style="background: #2AD77B;color: white;padding: 10px 15px;border-radius: 25px;line-height: 1;">
+                                        <a style="font-weight: 700;" href="tel:+18053545622"><i style="display: none;" class="las la-phone"></i> +1 805-354-5622</a>
                                     </li>
                                 </ul>
 
@@ -170,11 +162,8 @@
                                 <li class="nav-item">
                                     <a class="nav-link scroll" href="{{url('/')}}">HOME</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link scroll" href="{{url('/')}}">Resume Writing</a>
-                                </li>
                                 <li class="nav-item dropdown">
-                                    <button class="nav-link scroll dropbtn">BPO Services</button>
+                                    <button class="nav-link scroll dropbtn">Services</button>
                                     <div class="dropdown-content">
                                         <a href="#">Link 1</a>
                                         <a href="#">Link 2</a>
@@ -182,13 +171,10 @@
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link scroll" href="{{url('/')}}">Web Development</a>
-                                </li>
-                                <li class="nav-item">
                                     <a class="nav-link scroll" href="{{url('about')}}">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link scroll" href="{{url('/')}}">Contact</a>
+                                    <a class="nav-link scroll" href="{{url('/')}}">Contact Us</a>
                                 </li>
                             </ul>
                         </nav>
@@ -220,34 +206,110 @@
 @yield('content')
 
 <!--Footer Start-->
-<footer class="footer-style-1">
+<footer style="padding-bottom: 20px;background-color: #30333F;" class="footer-style-1">
 
-    <div class="container">
-        <div class="row align-items-center">
+    <div style="max-width: 80%;" class="container">
+        <div style="align-items: flex-start !important;" class="row align-items-center">
             <!--Social-->
-            <div class="col-lg-6">
+            <div class="col-lg-3">
+                <h2 style="font-family: 'poppins';font-weight: 600;font-size: 28px;color: white;margin-bottom: 20px;">FOLLOW US ON</h2>
                 <div class="footer-social text-center text-lg-left ">
                     <ul class="list-unstyled">
                         <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-facebook-f"></i></a></li>
-                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-twitter"></i></a></li>
-                        <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-google-plus-g"></i></a></li>
-                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-linkedin-in"></i></a></li>
                         <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-instagram"></i></a></li>
-                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-pinterest-p"></i></a></li>
+                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-linkedin-in"></i></a></li>
                     </ul>
                 </div>
             </div>
-            <!--Text-->
-            <div class="col-lg-6 text-center text-lg-right">
-                <p class="company-about fadeIn">© 2020 MegaOne. Made With Love By <a href="javascript:void(0);">Themesindustry</a>
-                </p>
+            <div class="col-lg-6">
+                <h2 style="font-family: 'poppins';font-weight: 600;font-size: 28px;color: white;margin-bottom: 20px;">NAVIGATION</h2>
+                <div style="display: flex;" class="text-center text-lg-left">
+                    <ul style="line-height: 2;" class="list-unstyled">
+                        <li><a style="font-weight: 300;font-size: 18px;color: white;" class="wow fadeInUp" href="javascript:void(0);">Home</a></li>
+                        <li><a style="font-weight: 300;font-size: 18px;color: white;" class="wow fadeInUp" href="javascript:void(0);">Resume Writing</a></li>
+                        <li><a style="font-weight: 300;font-size: 18px;color: white;" class="wow fadeInUp" href="javascript:void(0);">Customer Support</a></li>
+                        <li><a style="font-weight: 300;font-size: 18px;color: white;" class="wow fadeInUp" href="javascript:void(0);">Website Development</a></li>
+                    </ul>
+                    <ul style="line-height: 2;padding-left: 50px;" class="list-unstyled">
+                        <li><a style="font-weight: 300;font-size: 18px;color: white;" class="wow fadeInUp" href="javascript:void(0);">About</a></li>
+                        <li><a style="font-weight: 300;font-size: 18px;color: white;" class="wow fadeInUp" href="javascript:void(0);">Contact Us</a></li>
+                    </ul>
+                </div>
             </div>
+            <div class="col-lg-3">
+                <div style="display: flex;align-items: flex-start;">
+                    <img style="width: 25px;" src="creative-startup/img/Asset 7@4x.png" />
+                    <span style="font-family: 'Poppins';font-weight: 400;font-size: 18px;color: white;margin-left: 10px;">+1 805-354-5622</span>
+                </div>
+                <div style="display: flex;align-items: flex-start;margin-top: 20px;">
+                    <img style="width: 25px;" src="creative-startup/img/Asset 9@4x.png" />
+                    <span style="font-family: 'Poppins';font-weight: 400;font-size: 18px;color: white;margin-left: 10px;">info@interblesolutions.com</span>
+                </div>
+                <div style="display: flex;align-items: flex-start;margin-top: 20px;">
+                    <img style="width: 25px;" src="creative-startup/img/Asset 8@4x.png" />
+                    <span style="font-family: 'Poppins';font-weight: 400;font-size: 18px;color: white;margin-left: 10px;">123 Marion Street HOUSTON, TX 77200</span>
+                </div>
+            </div>
+
+            <div style="text-align: right;" class="col-lg-12">
+                <img style="width: 25%;" src="creative-startup/img/White and Orange Circle Icon Internet Logo.png" alt="logo">
+            </div>
+
+            <div style="text-align: center;font-family: 'Poppins';font-size: 18px;font-weight: 300;color: white;margin-top: 20px;" class="col-lg-12">
+            
+            &copy; Copyright 2021 - all rights reserved | Interble Solutions
+
+            </div>
+
         </div>
     </div>
 </footer>
 <!--Footer End-->
 
 <style>
+
+.footer-social a
+{
+    background-color: white;
+}
+
+.slider-area .slider-detail .slider-slide .slider-inner-content .slide-heading
+{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    color: #30333F;
+    font-size: 38px;
+}
+
+.slider-area .slider-detail .slider-slide .slider-inner-content .slide-text
+{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    color: #30333F;
+    font-size: 24px;
+    line-height: 1.3;
+
+}
+
+.slider-area img
+{
+    border-radius: 15px;
+}
+
+.anim-btn
+{
+    background-color: rgba(1, 212, 100, 0.56);
+    color: #30333F;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-style: normal;
+    border: none !important;
+    padding: 15px 30px 15px 30px;
+
+}
 
     .inner-header
     {
@@ -258,7 +320,7 @@
 
     header
     {
-        position: relative;
+        position: absolute;
         z-index: 101;
         height: 105px;
         display: flex;
@@ -271,14 +333,30 @@
         max-width: 85%;
     }
 
+    header .main-navigation nav .navbar-nav .nav-item.active .nav-link
+    {
+        color: #01D464 !important;
+    }
+
     header .main-navigation nav .navbar-nav .nav-item .nav-link
     {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     body, header, footer, .header-appear, .side-menu .bg-overlay
     {
-        background: #FEFEE3;
+        background-color: rgb(0 0 0 / 35%);
+    }
+
+    header .main-navigation nav .navbar-nav .nav-item .nav-link
+    {
+        color: #fff;
+    }
+
+    .slider-area
+    {
+        height: 100vh;
+        padding-top: 50px;
     }
 
     .side-menu .side-nav .navbar-nav .nav-link
@@ -315,8 +393,10 @@
     .slider-area .bg-overlay
     {
         /*background-color: #315659;*/
-        background-image: url("creative-startup/img/Untitled design.png");
-        background-size: 100% 100%;
+        background-image: url("creative-startup/img/main background.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 100%;
     }
 
     .slider-area .container .inner-bg-overlay
@@ -331,18 +411,12 @@
 
     .top-personal-info a
     {
-        font-size: 14px;
+        font-size: 20px;
     }
 
-    .top-personal-info li:hover
+    .top-personal-info a:hover
     {
-        border: 1px solid #FF928B !important;
-        background: #FF928B;
-    }
-
-    .top-personal-info li:hover a
-    {
-        color: white;
+        color: inherit;
     }
 
     .top-personal-info a i
@@ -440,18 +514,23 @@
 
     .dropbtn {
         background-color: transparent;
-        /*color: white;
-        padding: 16px;*/
-        font-size: 16px;
+        color: white;
+        /*padding: 16px;*/
+        font-size: 20px;
         border: none;
         padding-top: 0;
         padding-bottom: 0;
         display: flex;
     }
 
+    header .main-navigation nav .navbar-nav .nav-item
+    {
+        margin-left: 50px !important;
+    }
+
     header .main-navigation nav .navbar-nav .nav-item .nav-link:hover
     {
-        color: #FF928B !important;
+        color: #01D464 !important;
     }
 
     .bg-red
@@ -495,15 +574,25 @@
     .dropdown-content {
         display: none;
         position: absolute;
-        min-width: 125px;
+        min-width: 145px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1000;
         border-radius: 5px;
         padding: 0;
         animation: growOut 300ms ease-in-out forwards;
         transform-origin: top center;
-        background-color: #989898;
-        top: 25px;
+        background-color: rgb(255, 255, 255,0.8);
+        top: 35px;
+    }
+
+    .dropdown-content:before
+    {
+        content: '';
+        display: block;
+        height: 10px;
+        width: 100%;
+        position: absolute;
+        top: -10px;
     }
 
     .dropdown-content:after
@@ -555,33 +644,33 @@
     }
 
     .dropdown-content a {
-        color: white;
+        color: #30333F;
         padding: 0.6rem 0.5rem;
         text-decoration: none;
         display: block;
         font-weight: 400;
         white-space: nowrap;
         clear: both;
-        font-size: 13px;
+        font-size: 16px;
         font-family: "Poppins", sans-serif;
     }
 
-    .dropdown-content a:after
+    .dropdown-content a:hover:after
     {
         content: '';
-        background: #EBEBEB;
         background: -webkit-linear-gradient(right, #EBEBEB 0%, transparent 100%);
         background: linear-gradient(to right, #EBEBEB 0%, transparent 100%);
+        background: #afb0b1;
         display: block;
         height: 1px;
         width: 100%;
     }
 
-    .dropdown-content a:hover {background-color: transparent;margin-left: 5px;text-shadow: 1px 2px 3px #000000b0;}
+    .dropdown-content a:hover {background-color: transparent;margin-left: 5px;color: #01D464;/*text-shadow: 1px 2px 3px #000000b0;*/}
 
     .dropdown:hover .dropdown-content {display: block;}
 
-    .dropdown:hover .dropbtn {color: #FF928B !important;}
+    .dropdown:hover .dropbtn {color: #01D464 !important;}
 
     .dropbtn:after, .side-nav .navbar-nav .dropbtn::after
     {
@@ -670,7 +759,7 @@
 <script src="creative-startup/js/circle-progress.min.js"></script>
 
 <script src="vendor/js/contact_us.js"></script>
-<script src="creative-startup/js/script.js?v=2"></script>
+<script src="creative-startup/js/script.js?v=4"></script>
 
 </body>
 </html>
