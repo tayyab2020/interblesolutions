@@ -1,4 +1,4 @@
-$(window).on("load", function () {
+/*$(window).on("load", function () {
 
     "use strict";
 
@@ -6,14 +6,13 @@ $(window).on("load", function () {
             Loading Timeout
      ====================================== */
 
-    $('.side-menu').removeClass('hidden');
+    /*$('.side-menu').removeClass('hidden');
 
     setTimeout(function(){
         $('.preloader').fadeOut();
     }, 1000);
 
-
-});
+}); */
 
 
 jQuery(function ($) {

@@ -6,7 +6,7 @@
     <section class="slider-area">
         
         <div style="display: flex;justify-content: center;align-items: center;" class="bg-overlay">
-            <h1 style="color: white;font-family: 'Poppins';font-size: 50px;text-align: center;margin-bottom: 140px;">
+            <h1 style="color: white;font-family: 'Poppins';font-size: 45px;text-align: center;margin-bottom: 140px;">
             <span>EXCEPTIONAL</span> <span style="font-weight: 600;">BUSINESS PROCESS OUTSOURCING</span>
             <br>
             <span style="font-weight: 400;">FOR YOUR COMPANY’S GROWTH!</span>
@@ -21,8 +21,8 @@
     <div style="background-image: url('creative-startup/img/network background.png');" class="bg-overlay"></div>
 
     <div style="position: absolute;display: block;margin: 0;top: 60px;" class="row">
-        <div style="display: flex;justify-content: center;align-items: center;">
-            <span style="height: 45px;border-left: 7px solid #01D464;margin-right: 10px;"></span><span style="font-weight: 700;color: #30333F;font-family: 'Poppins';font-size: 55px;">OUR</span> <span style="font-weight: 700;color: #01D464;font-family: 'Poppins';font-size: 55px;margin-left: 10px;">SERVICES</span>
+        <div style="display: flex;justify-content: center;align-items: center;font-size: 45px;font-family: 'Poppins';font-weight: 700;">
+            <span style="height: 45px;border-left: 7px solid #01D464;margin-right: 10px;"></span><span style="color: #30333F;">OUR</span> <span style="color: #01D464;margin-left: 10px;">SERVICES</span>
         </div>
     </div>
 
@@ -34,9 +34,7 @@
                         <div class="slider-inner-content">
                             <h4 class="slide-heading">Providing <span>Customer Support</span></h4>
                             <p class="slide-text">We at <b>Interble Solutions</b> We at Interble Solutions aim to provide the finest Business Process Outsourcing (BPO) services to businesses; specializing in Lead Generation, Email/Chat Support and Inbound/Outbound calls!</p>
-                            <a href="#about-sec" class="btn anim-btn rounded-pill scroll">LEARN MORE
-                                <span></span><span></span><span></span><span></span>
-                            </a>
+                            <div style="display: flex;justify-content: center;width: 100%;"><a href="#about-sec" class="btn anim-btn rounded-pill scroll">LEARN MORE <span></span><span></span><span></span><span></span></a></div>
                         </div>
                     </div>
                     <div class="slider-slide">
@@ -44,9 +42,7 @@
                             <h4 class="slide-heading">Professional <span>Resume/CV Writing</span></h4>
                             <p class="slide-text">Providing top-notch Resume Writing Services! <br>
                             Struggling to write the perfect resume? Look no further. Contact us and get your resume written by a professional in affordable rates!</p>
-                            <a href="#about-sec" class="btn anim-btn rounded-pill scroll">LEARN MORE
-                                <span></span><span></span><span></span><span></span>
-                            </a>
+                            <div style="display: flex;justify-content: center;width: 100%;"><a href="#about-sec" class="btn anim-btn rounded-pill scroll">LEARN MORE <span></span><span></span><span></span><span></span></a></div>
                         </div>
                     </div>
                     <div class="slider-slide">
@@ -54,9 +50,7 @@
                             <h4 class="slide-heading">Building <span>Creative Websites</span></h4>
                             <p class="slide-text">"The internet has gone from a technical wonder to a business must" <br>
                                 Don't stay behind and get a website for your business today! <b>Interble Solutions</b> is here to provide you with top-notch Web Designing services.</p>
-                            <a href="#about-sec" class="btn anim-btn rounded-pill scroll">LEARN MORE
-                                <span></span><span></span><span></span><span></span>
-                            </a>
+                                <div style="display: flex;justify-content: center;width: 100%;"><a href="#about-sec" class="btn anim-btn rounded-pill scroll">LEARN MORE <span></span><span></span><span></span><span></span></a></div>
                         </div>
                     </div>
                 </div>
@@ -144,12 +138,12 @@
     <!--About sec End-->
 
     <!--Stats sec start-->
-    <section style="background-color: #30333F;" class="stats-sec padding-top padding-bottom" id="stats-sec">
+    <section style="background-color: #30333F;padding-bottom: 70px;" class="stats-sec" id="stats-sec">
         <div class="container">
             <div class="row">
                 <div class="col-12 stats-heading-area text-center">
-                    <div style="display: flex;justify-content: center;align-items: center;">
-                        <span style="height: 45px;border-left: 7px solid #01D464;margin-right: 10px;"></span><span style="font-weight: 700;color: #FFFFFF;font-family: 'Poppins';font-size: 55px;">OUR</span> <span style="font-weight: 700;color: #01D464;font-family: 'Poppins';font-size: 55px;margin-left: 10px;">BPO</span> <span style="font-weight: 700;color: #FFFFFF;font-family: 'Poppins';font-size: 55px;margin-left: 10px;">STATISTICS</span>
+                    <div style="display: flex;justify-content: center;align-items: center;margin-top: 60px;font-size: 45px;font-weight: 700;font-family: 'Poppins';">
+                        <span style="height: 45px;border-left: 7px solid #01D464;margin-right: 10px;"></span><span style="color: #FFFFFF;">OUR</span> <span style="color: #01D464;margin-left: 10px;">BPO</span> <span style="color: #FFFFFF;margin-left: 10px;">STATISTICS</span>
                     </div>
                     <div style="display: flex;justify-content: center;align-items: center;margin-top: 20px;">
                         <span style="font-weight: 300;color: #FFFFFF;font-family: 'Poppins';font-size: 26px;line-height: 1.2;">Changing the game with our <br> unmatchable productivity rate</span>
@@ -157,17 +151,17 @@
                 </div>
             </div>
             <div class="row circular-wrap text-center">
-                <div class="col-12 col-lg-4 wow bounceIn">
-                    <img style="width: 75%;" src="creative-startup/img/Asset 1@4x.png">
-                    <img style="width: 45%;margin-top: 70px;" src="creative-startup/img/call2 (2).png">
+                <div style="display: flex;flex-direction: column;justify-content: center;align-items: center;" class="col-12 col-lg-4 wow bounceIn">
+                    <img style="width: 65%;" src="creative-startup/img/Asset 1@4x.png">
+                    <img style="width: 40%;margin-top: 70px;" src="creative-startup/img/call2 (2).png">
                 </div>
-                <div class="col-12 col-lg-4 wow bounceIn">
-                    <img style="width: 75%;" src="creative-startup/img/calls@4x.png">
-                    <img style="width: 45%;margin-top: 50px;" src="creative-startup/img/call2 (1).png">
+                <div style="display: flex;flex-direction: column;justify-content: center;align-items: center;" class="col-12 col-lg-4 wow bounceIn">
+                    <img style="width: 65%;" src="creative-startup/img/calls@4x.png">
+                    <img style="width: 40%;margin-top: 50px;" src="creative-startup/img/call2 (1).png">
                 </div>
-                <div class="col-12 col-lg-4 wow bounceIn">
-                    <img style="width: 75%;" src="creative-startup/img/chats@4x.png">
-                    <img style="width: 45%;margin-top: 50px;" src="creative-startup/img/conversation3.png">
+                <div style="display: flex;flex-direction: column;justify-content: center;align-items: center;" class="col-12 col-lg-4 wow bounceIn">
+                    <img style="width: 65%;" src="creative-startup/img/chats@4x.png">
+                    <img style="width: 40%;margin-top: 50px;" src="creative-startup/img/conversation3.png">
                 </div>
             </div>
         </div>
@@ -177,9 +171,9 @@
 
     <div style="background-image: url('creative-startup/img/Untitled design (3).png');" class="bg-overlay"></div>
 
-    <div style="display: flex;justify-content: center;align-items: center;position: relative;margin-top: 50px;">
-        <div style="font-weight: 700;color: #30333F;font-family: 'Poppins';font-size: 55px;line-height: 1.2;text-align: center;"> 
-            <div style="float: left;">
+    <div style="display: flex;justify-content: center;align-items: center;position: relative;margin-top: 60px;">
+        <div style="font-weight: 700;color: #30333F;font-family: 'Poppins';font-size: 45px;line-height: 1.2;text-align: center;"> 
+            <div style="float: left;margin-top: 5px;">
                 <span style="height: 45px;border-left: 7px solid #01D464;margin-right: 20px;"></span>
             </div> CHOOSE THE <span style="color: #01D464;">OUTSOURCING</span> SERVICES <br> YOUR NEED!
         </div>

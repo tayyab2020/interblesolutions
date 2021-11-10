@@ -34,7 +34,7 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 <!-- Preloader -->
-<div class="preloader">
+<div style="display: none;" class="preloader">
     <div class="center">
         <div class="loader loader-32">
             <div class='loader-container'>
@@ -103,9 +103,9 @@
                         </a>
                     </div>
 
-                    <div style="margin-top: 20px;display: block;" class="col-8 col-lg-9 simple-navbar">
+                    <div style="display: flex;align-items: center;justify-content: flex-end;" class="col-8 col-lg-9 simple-navbar">
 
-                        <nav style="padding-bottom: 10px;" class="navbar navbar-expand-lg">
+                        <nav class="navbar navbar-expand-lg">
                             <li class="collapse navbar-collapse" id="navbarSupportedContent">
 
                                 <ul class="navbar-nav ml-auto">
@@ -123,7 +123,7 @@
                                 </ul>
 
                                 <ul class="top-personal-info" style="list-style: none;width: auto;margin-left: 50px;">
-                                    <li style="background: #2AD77B;color: white;padding: 10px 15px;border-radius: 25px;line-height: 1;">
+                                    <li style="background: #2AD77B;color: white;padding: 13px;border-radius: 25px;line-height: 1;">
                                         <a style="font-weight: 700;" href="tel:+18053545622"><i style="display: none;" class="las la-phone"></i> +1 805-354-5622</a>
                                     </li>
                                 </ul>
@@ -206,13 +206,13 @@
 @yield('content')
 
 <!--Footer Start-->
-<footer style="padding-bottom: 20px;background-color: #30333F;" class="footer-style-1">
+<footer style="padding-bottom: 20px;padding-top: 40px;background-color: #30333F;" class="footer-style-1">
 
     <div style="max-width: 80%;" class="container">
         <div style="align-items: flex-start !important;" class="row align-items-center">
             <!--Social-->
             <div class="col-lg-3">
-                <h2 style="font-family: 'poppins';font-weight: 600;font-size: 28px;color: white;margin-bottom: 20px;">FOLLOW US ON</h2>
+                <h2 style="font-family: 'poppins';font-weight: 600;font-size: 20px;color: white;margin-bottom: 20px;">FOLLOW US ON</h2>
                 <div class="footer-social text-center text-lg-left ">
                     <ul class="list-unstyled">
                         <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-facebook-f"></i></a></li>
@@ -222,40 +222,42 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <h2 style="font-family: 'poppins';font-weight: 600;font-size: 28px;color: white;margin-bottom: 20px;">NAVIGATION</h2>
+                <h2 style="font-family: 'poppins';font-weight: 600;font-size: 20px;color: white;margin-bottom: 20px;">NAVIGATION</h2>
                 <div style="display: flex;" class="text-center text-lg-left">
                     <ul style="line-height: 2;" class="list-unstyled">
-                        <li><a style="font-weight: 300;font-size: 18px;color: white;" class="wow fadeInUp" href="javascript:void(0);">Home</a></li>
-                        <li><a style="font-weight: 300;font-size: 18px;color: white;" class="wow fadeInUp" href="javascript:void(0);">Resume Writing</a></li>
-                        <li><a style="font-weight: 300;font-size: 18px;color: white;" class="wow fadeInUp" href="javascript:void(0);">Customer Support</a></li>
-                        <li><a style="font-weight: 300;font-size: 18px;color: white;" class="wow fadeInUp" href="javascript:void(0);">Website Development</a></li>
+                        <li><a style="font-weight: 300;font-size: 15px;color: white;" class="wow fadeInUp" href="javascript:void(0);">Home</a></li>
+                        <li><a style="font-weight: 300;font-size: 15px;color: white;" class="wow fadeInUp" href="javascript:void(0);">Resume Writing</a></li>
+                        <li><a style="font-weight: 300;font-size: 15px;color: white;" class="wow fadeInUp" href="javascript:void(0);">Customer Support</a></li>
+                        <li><a style="font-weight: 300;font-size: 15px;color: white;" class="wow fadeInUp" href="javascript:void(0);">Website Development</a></li>
                     </ul>
                     <ul style="line-height: 2;padding-left: 50px;" class="list-unstyled">
-                        <li><a style="font-weight: 300;font-size: 18px;color: white;" class="wow fadeInUp" href="javascript:void(0);">About</a></li>
-                        <li><a style="font-weight: 300;font-size: 18px;color: white;" class="wow fadeInUp" href="javascript:void(0);">Contact Us</a></li>
+                        <li><a style="font-weight: 300;font-size: 15px;color: white;" class="wow fadeInUp" href="javascript:void(0);">About</a></li>
+                        <li><a style="font-weight: 300;font-size: 15px;color: white;" class="wow fadeInUp" href="javascript:void(0);">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-3">
-                <div style="display: flex;align-items: flex-start;">
-                    <img style="width: 25px;" src="creative-startup/img/Asset 7@4x.png" />
-                    <span style="font-family: 'Poppins';font-weight: 400;font-size: 18px;color: white;margin-left: 10px;">+1 805-354-5622</span>
+                <div style="display: flex;align-items: center;">
+                    <img style="width: 20px;" src="creative-startup/img/Asset 7@4x.png" />
+                    <span style="font-family: 'Poppins';font-weight: 400;font-size: 15px;color: white;margin-left: 10px;">+1 805-354-5622</span>
                 </div>
                 <div style="display: flex;align-items: flex-start;margin-top: 20px;">
-                    <img style="width: 25px;" src="creative-startup/img/Asset 9@4x.png" />
-                    <span style="font-family: 'Poppins';font-weight: 400;font-size: 18px;color: white;margin-left: 10px;">info@interblesolutions.com</span>
+                    <img style="width: 20px;" src="creative-startup/img/Asset 9@4x.png" />
+                    <span style="font-family: 'Poppins';font-weight: 400;font-size: 15px;color: white;margin-left: 10px;">info@interblesolutions.com</span>
                 </div>
                 <div style="display: flex;align-items: flex-start;margin-top: 20px;">
-                    <img style="width: 25px;" src="creative-startup/img/Asset 8@4x.png" />
-                    <span style="font-family: 'Poppins';font-weight: 400;font-size: 18px;color: white;margin-left: 10px;">123 Marion Street HOUSTON, TX 77200</span>
+                    <img style="width: 20px;" src="creative-startup/img/Asset 8@4x.png" />
+                    <span style="font-family: 'Poppins';font-weight: 400;font-size: 15px;color: white;margin-left: 10px;">123 Marion Street HOUSTON, TX 77200</span>
                 </div>
             </div>
 
-            <div style="text-align: right;" class="col-lg-12">
-                <img style="width: 25%;" src="creative-startup/img/White and Orange Circle Icon Internet Logo.png" alt="logo">
+            <div style="display: flex;justify-content: flex-end;" class="col-lg-12">
+                <div class="col-lg-3">
+                    <img style="width: 80%;" src="creative-startup/img/White and Orange Circle Icon Internet Logo.png" alt="logo">
+                </div>
             </div>
 
-            <div style="text-align: center;font-family: 'Poppins';font-size: 18px;font-weight: 300;color: white;margin-top: 20px;" class="col-lg-12">
+            <div style="text-align: center;font-family: 'Poppins';font-size: 16px;font-weight: 300;color: white;margin-top: 20px;" class="col-lg-12">
             
             &copy; Copyright 2021 - all rights reserved | Interble Solutions
 
@@ -268,6 +270,11 @@
 
 <style>
 
+.header-appear
+{
+    display: none !important;
+}
+
 .footer-social a
 {
     background-color: white;
@@ -279,7 +286,7 @@
     font-style: normal;
     font-weight: 600;
     color: #30333F;
-    font-size: 38px;
+    font-size: 32px;
 }
 
 .slider-area .slider-detail .slider-slide .slider-inner-content .slide-text
@@ -288,7 +295,7 @@
     font-style: normal;
     font-weight: 300;
     color: #30333F;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.3;
 
 }
@@ -303,11 +310,11 @@
     background-color: rgba(1, 212, 100, 0.56);
     color: #30333F;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 13px;
     font-family: 'Poppins';
     font-style: normal;
     border: none !important;
-    padding: 15px 30px 15px 30px;
+    padding: 10px 25px;
 
 }
 
@@ -322,7 +329,7 @@
     {
         position: absolute;
         z-index: 101;
-        height: 105px;
+        height: 85px;
         display: flex;
         align-items: center;
         font-family: "Poppins", sans-serif;
@@ -336,11 +343,12 @@
     header .main-navigation nav .navbar-nav .nav-item.active .nav-link
     {
         color: #01D464 !important;
+        font-weight: bold;
     }
 
     header .main-navigation nav .navbar-nav .nav-item .nav-link
     {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     body, header, footer, .header-appear, .side-menu .bg-overlay
@@ -516,11 +524,12 @@
         background-color: transparent;
         color: white;
         /*padding: 16px;*/
-        font-size: 20px;
+        font-size: 18px;
         border: none;
         padding-top: 0;
         padding-bottom: 0;
         display: flex;
+        font-family: 'poppins';
     }
 
     header .main-navigation nav .navbar-nav .nav-item
@@ -759,7 +768,7 @@
 <script src="creative-startup/js/circle-progress.min.js"></script>
 
 <script src="vendor/js/contact_us.js"></script>
-<script src="creative-startup/js/script.js?v=4"></script>
+<script src="creative-startup/js/script.js?v=5"></script>
 
 </body>
 </html>
