@@ -167,15 +167,15 @@
             <div style="padding-top: 50px;" class="row circular-wrap text-center">
                 <div style="display: flex;flex-direction: column;justify-content: center;align-items: center;" class="col-12 col-lg-4 wow bounceIn">
                     <img style="width: 30%;margin: 50px 0;" src="creative-startup/img/Message.png">
-                    <img style="width: 85%;position: relative;top: 1px;" src="creative-startup/img/Asset 1@4x.png">
+                    <img style="width: 85%;position: relative;top: 1px;" src="creative-startup/img/Asset 1@4x1.png">
                 </div>
                 <div style="display: flex;flex-direction: column;justify-content: center;align-items: center;" class="col-12 col-lg-4 wow bounceIn">
                     <img style="width: 30%;margin: 50px 0;" src="creative-startup/img/Calling1.png">
-                    <img style="width: 85%;position: relative;top: 1px;" src="creative-startup/img/calls@4x.png">
+                    <img style="width: 85%;position: relative;top: 1px;" src="creative-startup/img/calls@4x1.png">
                 </div>
                 <div style="display: flex;flex-direction: column;justify-content: center;align-items: center;" class="col-12 col-lg-4 wow bounceIn">
                     <img style="width: 30%;margin: 50px 0;" src="creative-startup/img/Chat.png">
-                    <img style="width: 85%;position: relative;top: 1px;" src="creative-startup/img/chats@4x.png">
+                    <img style="width: 85%;position: relative;top: 1px;" src="creative-startup/img/chats@4x1.png">
                 </div>
             </div>
         </div>
@@ -225,21 +225,21 @@
             <div style="margin: 0;" class="row circular-wrap text-center">
                 <div style="display: flex;flex-direction: column;align-items: center;" class="col-12 col-lg-4 wow bounceIn">
                     <div style="display: flex;justify-content: flex-start;align-items: center;margin-bottom: 20px;width: 65%;">
-                        <img style="width: 40px;height: 35px;border-radius: 0;" src="creative-startup/img/headphones.png">
+                        <img style="width: 40px;height: 35px;border-radius: 0;" src="creative-startup/img/headphones1.png">
                         <span style="font-size: 20px;font-family: 'Poppins';color: #30333F;margin-left: 15px;">Customer Support</span>
                     </div>
                     <div style="text-align: left;width: 65%;font-family: 'Poppins';color: #30333F;">It is a long established fact that outstanding Customer Support results in better conversion.</div>
                 </div>
                 <div style="display: flex;flex-direction: column;align-items: center;" class="col-12 col-lg-4 wow bounceIn">
                     <div style="display: flex;justify-content: flex-start;align-items: center;margin-bottom: 20px;width: 65%;">
-                        <img style="width: 40px;height: 35px;border-radius: 0;" src="creative-startup/img/curriculum.png">
+                        <img style="width: 40px;height: 35px;border-radius: 0;" src="creative-startup/img/curriculum1.png">
                         <span style="font-size: 20px;font-family: 'Poppins';color: #30333F;margin-left: 15px;">Resume/CV Writing</span>
                     </div>
                     <div style="text-align: left;width: 65%;font-family: 'Poppins';color: #30333F;">Outsource your Resume Writing to us and we’ll get it done by professionals in affordable rates.</div>
                 </div>
                 <div style="display: flex;flex-direction: column;align-items: center;" class="col-12 col-lg-4 wow bounceIn">
                     <div style="display: flex;justify-content: flex-start;align-items: center;margin-bottom: 20px;width: 65%;">
-                        <img style="width: 40px;height: 35px;border-radius: 0;" src="creative-startup/img/code.png">
+                        <img style="width: 40px;height: 35px;border-radius: 0;" src="creative-startup/img/code1.png">
                         <span style="font-size: 20px;font-family: 'Poppins';color: #30333F;margin-left: 15px;">Website Development</span>
                     </div>
                     <div style="text-align: left;width: 65%;font-family: 'Poppins';color: #30333F;">A digital footprint has become a necessity for businesses. Get your Website made today!</div>
