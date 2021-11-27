@@ -5,52 +5,64 @@
     <!--SLider sec start-->
     <section class="slider-area">
         
-        <div style="display: flex;justify-content: center;align-items: center;" class="bg-overlay">
-            <h1 style="color: white;font-family: 'Poppins';font-size: 45px;text-align: center;margin-bottom: 140px;">
-            <span>EXCEPTIONAL</span> <span style="font-weight: 600;">BUSINESS PROCESS OUTSOURCING</span>
+        <div style="display: flex;justify-content: flex-start;align-items: center;" class="bg-overlay">
+            <h1 class="container" style="color: white;font-family: 'Poppins';text-align: left;max-width: 95%;padding: 180px 0 0 15px;">
+            <span style="font-size: 28px;font-weight: 400;margin-bottom: 20px;">- We do</span>
             <br>
-            <span style="font-weight: 400;">FOR YOUR COMPANY’S GROWTH!</span>
+            <span style="font-size: 55px;">EXCEPTIONAL</span> <span style="font-weight: 600;font-size: 55px;">BUSINESS </span>
+            <br>
+            <span style="font-weight: 600;font-size: 55px;">PROCESS OUTSOURCING</span>
+            <br>
+            <span style="font-size: 28px;font-weight: 400;margin-top: 20px;">for your company's growth</span>
+
+            <br><br>
+            <a style="background: #ffff;color: #111111;padding: 13px 18px;line-height: 1.4;border-radius: 5px;font-weight: 400;font-size: 20px;">Get in touch</a>
+
             </h1>
+
         </div>
         
     </section>
     <!--SLider sec End-->
 
-    <section style="display: flex;flex-direction: column;justify-content: center;align-items: center;" class="slider-area">
+    <section style="display: flex;flex-direction: column;justify-content: flex-start;align-items: center;height: auto;" class="slider-area">
 
-    <div style="background-image: url('creative-startup/img/network background.png');" class="bg-overlay"></div>
+    <div style="background: #ebfffd9e;/*background-image: url('creative-startup/img/network background.png');*/" class="bg-overlay"></div>
 
-    <div style="position: absolute;display: block;margin: 0;top: 60px;" class="row">
+    <!--<div style="position: absolute;display: block;margin: 0;top: 60px;" class="row">
         <div style="display: flex;justify-content: center;align-items: center;font-size: 45px;font-family: 'Poppins';font-weight: 700;">
             <span style="height: 45px;border-left: 7px solid #01D464;margin-right: 10px;"></span><span style="color: #30333F;">OUR</span> <span style="color: #01D464;margin-left: 10px;">SERVICES</span>
         </div>
-    </div>
+    </div>-->
 
-    <div style="padding-bottom: 0;" class="container position-relative">
+    <div class="container position-relative second-slider">
 
             <div class="row">
                 <div class="slider-detail col-12 col-lg-6 text-center text-lg-left wow fadeInLeft" data-wow-delay=".8s">
                     <div class="slider-slide">
                         <div class="slider-inner-content">
+                            <span style="font-family: General Sans;font-weight: 600;font-size: 13px;border: 1px solid black;border-radius: 100px;padding: 3px 15px;color: #0A433E;margin-bottom: 20px;">OUR SERVICES</span>
                             <h4 class="slide-heading">Providing <span>Customer Support</span></h4>
                             <p class="slide-text">We at <b>Interble Solutions</b> We at Interble Solutions aim to provide the finest Business Process Outsourcing (BPO) services to businesses; specializing in Lead Generation, Email/Chat Support and Inbound/Outbound calls!</p>
-                            <div style="display: flex;justify-content: center;width: 100%;"><a href="#about-sec" class="btn anim-btn rounded-pill scroll">LEARN MORE <span></span><span></span><span></span><span></span></a></div>
+                            <div style="display: flex;justify-content: flex-start;width: 100%;"><a href="#about-sec" class="btn anim-btn rounded-pill scroll">LEARN MORE <span></span><span></span><span></span><span></span></a></div>
                         </div>
                     </div>
                     <div class="slider-slide">
                         <div class="slider-inner-content">
+                        <span style="font-family: General Sans;font-weight: 600;font-size: 13px;border: 1px solid black;border-radius: 100px;padding: 3px 15px;color: #0A433E;margin-bottom: 20px;">OUR SERVICES</span>
                             <h4 class="slide-heading">Professional <span>Resume/CV Writing</span></h4>
                             <p class="slide-text">Providing top-notch Resume Writing Services! <br>
                             Struggling to write the perfect resume? Look no further. Contact us and get your resume written by a professional in affordable rates!</p>
-                            <div style="display: flex;justify-content: center;width: 100%;"><a href="#about-sec" class="btn anim-btn rounded-pill scroll">LEARN MORE <span></span><span></span><span></span><span></span></a></div>
+                            <div style="display: flex;justify-content: flex-start;width: 100%;"><a href="#about-sec" class="btn anim-btn rounded-pill scroll">LEARN MORE <span></span><span></span><span></span><span></span></a></div>
                         </div>
                     </div>
                     <div class="slider-slide">
                         <div class="slider-inner-content">
+                        <span style="font-family: General Sans;font-weight: 600;font-size: 13px;border: 1px solid black;border-radius: 100px;padding: 3px 15px;color: #0A433E;margin-bottom: 20px;">OUR SERVICES</span>
                             <h4 class="slide-heading">Building <span>Creative Websites</span></h4>
                             <p class="slide-text">"The internet has gone from a technical wonder to a business must" <br>
                                 Don't stay behind and get a website for your business today! <b>Interble Solutions</b> is here to provide you with top-notch Web Designing services.</p>
-                                <div style="display: flex;justify-content: center;width: 100%;"><a href="#about-sec" class="btn anim-btn rounded-pill scroll">LEARN MORE <span></span><span></span><span></span><span></span></a></div>
+                                <div style="display: flex;justify-content: flex-start;width: 100%;"><a href="#about-sec" class="btn anim-btn rounded-pill scroll">LEARN MORE <span></span><span></span><span></span><span></span></a></div>
                         </div>
                     </div>
                 </div>
@@ -138,62 +150,106 @@
     <!--About sec End-->
 
     <!--Stats sec start-->
-    <section style="background-color: #30333F;padding-bottom: 70px;" class="stats-sec" id="stats-sec">
-        <div class="container">
+    <section style="background-color: #30333F;background-image: url('creative-startup/img/Group 3417.png');background-size: 100% 100%;background-repeat: no-repeat;" class="stats-sec" id="stats-sec">
+
+        <div style="max-width: 95%;" class="container">
             <div class="row">
                 <div class="col-12 stats-heading-area text-center">
-                    <div style="display: flex;justify-content: center;align-items: center;margin-top: 60px;font-size: 45px;font-weight: 700;font-family: 'Poppins';">
-                        <span style="height: 45px;border-left: 7px solid #01D464;margin-right: 10px;"></span><span style="color: #FFFFFF;">OUR</span> <span style="color: #01D464;margin-left: 10px;">BPO</span> <span style="color: #FFFFFF;margin-left: 10px;">STATISTICS</span>
+                    <div style="display: flex;justify-content: center;align-items: center;margin-top: 60px;font-size: 40px;font-weight: 700;font-family: 'Poppins';">
+                        <!--<span style="height: 45px;border-left: 7px solid #01D464;margin-right: 10px;"></span>-->
+                        <span style="color: #FFFFFF;">OUR</span> <span style="color: #00CFBE;margin-left: 10px;">BPO</span> <span style="color: #FFFFFF;margin-left: 10px;">STATISTICS</span>
                     </div>
                     <div style="display: flex;justify-content: center;align-items: center;margin-top: 20px;">
-                        <span style="font-weight: 300;color: #FFFFFF;font-family: 'Poppins';font-size: 26px;line-height: 1.2;">Changing the game with our <br> unmatchable productivity rate</span>
+                        <span style="font-weight: 300;color: #FFFFFF;font-family: 'Poppins';font-size: 20px;line-height: 1.2;">Changing the game with our <br> unmatchable productivity rate</span>
                     </div>
                 </div>
             </div>
-            <div class="row circular-wrap text-center">
+            <div style="padding-top: 50px;" class="row circular-wrap text-center">
                 <div style="display: flex;flex-direction: column;justify-content: center;align-items: center;" class="col-12 col-lg-4 wow bounceIn">
-                    <img style="width: 65%;" src="creative-startup/img/Asset 1@4x.png">
-                    <img style="width: 40%;margin-top: 70px;" src="creative-startup/img/call2 (2).png">
+                    <img style="width: 30%;margin: 50px 0;" src="creative-startup/img/Message.png">
+                    <img style="width: 85%;position: relative;top: 1px;" src="creative-startup/img/Asset 1@4x.png">
                 </div>
                 <div style="display: flex;flex-direction: column;justify-content: center;align-items: center;" class="col-12 col-lg-4 wow bounceIn">
-                    <img style="width: 65%;" src="creative-startup/img/calls@4x.png">
-                    <img style="width: 40%;margin-top: 50px;" src="creative-startup/img/call2 (1).png">
+                    <img style="width: 30%;margin: 50px 0;" src="creative-startup/img/Calling1.png">
+                    <img style="width: 85%;position: relative;top: 1px;" src="creative-startup/img/calls@4x.png">
                 </div>
                 <div style="display: flex;flex-direction: column;justify-content: center;align-items: center;" class="col-12 col-lg-4 wow bounceIn">
-                    <img style="width: 65%;" src="creative-startup/img/chats@4x.png">
-                    <img style="width: 40%;margin-top: 50px;" src="creative-startup/img/conversation3.png">
+                    <img style="width: 30%;margin: 50px 0;" src="creative-startup/img/Chat.png">
+                    <img style="width: 85%;position: relative;top: 1px;" src="creative-startup/img/chats@4x.png">
                 </div>
             </div>
         </div>
+
+        <div style="background-color: #EBFFFD;height: 50px;position: relative;z-index: 1;" class="row">
+            
+            <div style="max-width: 95%;display: flex;" class="container">
+            
+                <div style="display: flex;flex-direction: row;justify-content: space-between;align-items: center;" class="col-12 col-lg-4 wow bounceIn">
+                    <span style="width: 19%;text-align: right;">0%</span>
+                    <span style="font-weight: 600;font-family: 'Poppins';color: #252424;width: 62%;text-align: center;">emails per</span>
+                    <span style="width: 19%;text-align: left;">100%</span>
+                </div>
+            
+                <div style="display: flex;flex-direction: row;justify-content: space-between;align-items: center;" class="col-12 col-lg-4 wow bounceIn">
+                    <span style="width: 19%;text-align: right;">0%</span>
+                    <span style="font-weight: 600;font-family: 'Poppins';color: #252424;width: 62%;text-align: center;">calls per day</span>
+                    <span style="width: 19%;text-align: left;">100%</span>
+            
+                </div>
+                
+                <div style="display: flex;flex-direction: row;justify-content: space-between;align-items: center;" class="col-12 col-lg-4 wow bounceIn">
+                    <span style="width: 19%;text-align: right;">0%</span>
+                    <span style="font-weight: 600;font-family: 'Poppins';color: #252424;width: 62%;text-align: center;">chats per day</span>
+                    <span style="width: 19%;text-align: left;">100%</span>
+                </div>
+
+            </div>
+            
+        </div>
+
     </section>
 
-    <section class="slider-area" style="padding: 0;">
+    <section class="slider-area" style="padding: 0;height: auto;">
 
-    <div style="background-image: url('creative-startup/img/Untitled design (3).png');" class="bg-overlay"></div>
+    <div style="/*background-image: url('creative-startup/img/Untitled design (3).png');*/background: white;" class="bg-overlay"></div>
 
-    <div style="display: flex;justify-content: center;align-items: center;position: relative;margin-top: 60px;">
+    <div style="display: flex;justify-content: center;align-items: center;position: relative;margin-top: 100px;">
         <div style="font-weight: 700;color: #30333F;font-family: 'Poppins';font-size: 45px;line-height: 1.2;text-align: center;"> 
             <div style="float: left;margin-top: 5px;">
-                <span style="height: 45px;border-left: 7px solid #01D464;margin-right: 20px;"></span>
-            </div> CHOOSE THE <span style="color: #01D464;">OUTSOURCING</span> SERVICES <br> YOUR NEED!
+                <!--<span style="height: 45px;border-left: 7px solid #01D464;margin-right: 20px;"></span>-->
+            </div> CHOOSE THE <span style="color: #00CFBE;">OUTSOURCING</span> <br> SERVICES YOUR NEED!
         </div>
     </div>
 
-        <div style="max-width: 85%;padding-top: 150px;" class="container">
-            <div class="row circular-wrap text-center">
-                <div class="col-12 col-lg-4 wow bounceIn">
-                    <img style="width: 55%;" src="creative-startup/img/headphones.png">
-                    <span style="font-size: 26px;font-family: 'Poppins';color: ##30333F;margin-top: 30px;">Customer Spport</span>
+        <div style="padding-top: 100px;max-width: 95%;" class="container">
+            <div style="margin: 0;" class="row circular-wrap text-center">
+                <div style="display: flex;flex-direction: column;align-items: center;" class="col-12 col-lg-4 wow bounceIn">
+                    <div style="display: flex;justify-content: flex-start;align-items: center;margin-bottom: 20px;width: 65%;">
+                        <img style="width: 40px;height: 35px;border-radius: 0;" src="creative-startup/img/headphones.png">
+                        <span style="font-size: 20px;font-family: 'Poppins';color: #30333F;margin-left: 15px;">Customer Support</span>
+                    </div>
+                    <div style="text-align: left;width: 65%;font-family: 'Poppins';color: #30333F;">It is a long established fact that outstanding Customer Support results in better conversion.</div>
                 </div>
-                <div class="col-12 col-lg-4 wow bounceIn">
-                    <img style="width: 55%;" src="creative-startup/img/curriculum.png">
-                    <span style="font-size: 26px;font-family: 'Poppins';color: ##30333F;margin-top: 30px;">Resume/CV Writing</span>
+                <div style="display: flex;flex-direction: column;align-items: center;" class="col-12 col-lg-4 wow bounceIn">
+                    <div style="display: flex;justify-content: flex-start;align-items: center;margin-bottom: 20px;width: 65%;">
+                        <img style="width: 40px;height: 35px;border-radius: 0;" src="creative-startup/img/curriculum.png">
+                        <span style="font-size: 20px;font-family: 'Poppins';color: #30333F;margin-left: 15px;">Resume/CV Writing</span>
+                    </div>
+                    <div style="text-align: left;width: 65%;font-family: 'Poppins';color: #30333F;">Outsource your Resume Writing to us and we’ll get it done by professionals in affordable rates.</div>
                 </div>
-                <div class="col-12 col-lg-4 wow bounceIn">
-                    <img style="width: 55%;" src="creative-startup/img/code.png">
-                    <span style="font-size: 26px;font-family: 'Poppins';color: ##30333F;margin-top: 30px;">Website Development</span>
+                <div style="display: flex;flex-direction: column;align-items: center;" class="col-12 col-lg-4 wow bounceIn">
+                    <div style="display: flex;justify-content: flex-start;align-items: center;margin-bottom: 20px;width: 65%;">
+                        <img style="width: 40px;height: 35px;border-radius: 0;" src="creative-startup/img/code.png">
+                        <span style="font-size: 20px;font-family: 'Poppins';color: #30333F;margin-left: 15px;">Website Development</span>
+                    </div>
+                    <div style="text-align: left;width: 65%;font-family: 'Poppins';color: #30333F;">A digital footprint has become a necessity for businesses. Get your Website made today!</div>
                 </div>
             </div>
+            
+            <div style="margin: 0;width: 100%;display: flex;justify-content: center;margin-top: 40px;" class="row">
+                <a href="#about-sec" class="btn anim-btn rounded-pill scroll" tabindex="0">Get in touch <span></span><span></span><span></span><span></span></a>
+            </div>
+
         </div>
     </section>
     <!--Stats sec End-->
