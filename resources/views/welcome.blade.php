@@ -41,7 +41,7 @@
                 <div class="slider-detail col-12 col-lg-6 text-center text-lg-left wow fadeInLeft" data-wow-delay=".8s">
                     <div class="slider-slide">
                         <div class="slider-inner-content">
-                            <span style="font-family: General Sans;font-weight: 600;font-size: 13px;border: 1px solid black;border-radius: 100px;padding: 3px 15px;color: #0A433E;margin-bottom: 20px;">OUR SERVICES</span>
+                            <span style="font-family: 'Poppins';font-weight: 600;font-size: 13px;border: 1px solid black;border-radius: 100px;padding: 3px 18px;color: #0A433E;margin-bottom: 20px;">OUR SERVICES</span>
                             <h4 class="slide-heading">Providing <span>Customer Support</span></h4>
                             <p class="slide-text">We at <b>Interble Solutions</b> We at Interble Solutions aim to provide the finest Business Process Outsourcing (BPO) services to businesses; specializing in Lead Generation, Email/Chat Support and Inbound/Outbound calls!</p>
                             <div style="display: flex;justify-content: flex-start;width: 100%;"><a href="#about-sec" class="btn anim-btn rounded-pill scroll">LEARN MORE <span></span><span></span><span></span><span></span></a></div>
@@ -49,7 +49,7 @@
                     </div>
                     <div class="slider-slide">
                         <div class="slider-inner-content">
-                        <span style="font-family: General Sans;font-weight: 600;font-size: 13px;border: 1px solid black;border-radius: 100px;padding: 3px 15px;color: #0A433E;margin-bottom: 20px;">OUR SERVICES</span>
+                        <span style="font-family: 'Poppins';font-weight: 600;font-size: 13px;border: 1px solid black;border-radius: 100px;padding: 3px 18px;color: #0A433E;margin-bottom: 20px;">OUR SERVICES</span>
                             <h4 class="slide-heading">Professional <span>Resume/CV Writing</span></h4>
                             <p class="slide-text">Providing top-notch Resume Writing Services! <br>
                             Struggling to write the perfect resume? Look no further. Contact us and get your resume written by a professional in affordable rates!</p>
@@ -58,7 +58,7 @@
                     </div>
                     <div class="slider-slide">
                         <div class="slider-inner-content">
-                        <span style="font-family: General Sans;font-weight: 600;font-size: 13px;border: 1px solid black;border-radius: 100px;padding: 3px 15px;color: #0A433E;margin-bottom: 20px;">OUR SERVICES</span>
+                        <span style="font-family: 'Poppins';font-weight: 600;font-size: 13px;border: 1px solid black;border-radius: 100px;padding: 3px 18px;color: #0A433E;margin-bottom: 20px;">OUR SERVICES</span>
                             <h4 class="slide-heading">Building <span>Creative Websites</span></h4>
                             <p class="slide-text">"The internet has gone from a technical wonder to a business must" <br>
                                 Don't stay behind and get a website for your business today! <b>Interble Solutions</b> is here to provide you with top-notch Web Designing services.</p>
