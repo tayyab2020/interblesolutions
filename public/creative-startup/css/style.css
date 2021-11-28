@@ -62,14 +62,14 @@
     border-right: 0 solid white;
 }
 ::-webkit-scrollbar-thumb {
-    background: #f71c52;
+    background: #00CFBE;
     width: 0;
     height: 25%;
     transition: .5s ease;
     cursor: pointer;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background:#554c86;
+    background:#00CFBE;
 }
 /* ===================================
     General

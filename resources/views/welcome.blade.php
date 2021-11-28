@@ -6,7 +6,7 @@
     <section class="slider-area">
         
         <div style="display: flex;justify-content: flex-start;align-items: center;" class="bg-overlay">
-            <h1 class="container" style="color: white;font-family: 'Poppins';text-align: left;max-width: 95%;padding: 180px 0 0 15px;">
+            <h1 class="container" style="color: white;font-family: 'Poppins';text-align: left;max-width: 95%;padding: 95px 0 0 15px;">
             <span style="font-size: 28px;font-weight: 400;margin-bottom: 20px;">- We do</span>
             <br>
             <span style="font-size: 55px;">EXCEPTIONAL</span> <span style="font-weight: 600;font-size: 55px;">BUSINESS </span>
@@ -15,8 +15,8 @@
             <br>
             <span style="font-size: 28px;font-weight: 400;margin-top: 20px;">for your company's growth</span>
 
-            <br><br>
-            <a style="background: #ffff;color: #111111;padding: 13px 18px;line-height: 1.4;border-radius: 5px;font-weight: 400;font-size: 20px;">Get in touch</a>
+            <br>
+            <a style="background: #ffff;color: #111111;padding: 13px 18px;line-height: 1.4;border-radius: 5px;font-weight: 400;font-size: 20px;display: inline-block;margin-top: 30px;cursor: pointer;">Get in touch</a>
 
             </h1>
 
@@ -223,27 +223,31 @@
 
         <div style="padding-top: 100px;max-width: 95%;" class="container">
             <div style="margin: 0;" class="row circular-wrap text-center">
-                <div style="display: flex;flex-direction: column;align-items: center;" class="col-12 col-lg-4 wow bounceIn">
-                    <div style="display: flex;justify-content: flex-start;align-items: center;margin-bottom: 20px;width: 65%;">
+                
+                <div style="display: flex;flex-direction: column;align-items: center;padding: 0 30px;margin-bottom: 30px;" class="col-12 col-lg-4 wow bounceIn">
+                    <div style="display: flex;justify-content: flex-start;align-items: center;margin-bottom: 20px;min-width: 65%;width: 100%;">
                         <img style="width: 40px;height: 35px;border-radius: 0;" src="creative-startup/img/headphones1.png">
-                        <span style="font-size: 20px;font-family: 'Poppins';color: #30333F;margin-left: 15px;">Customer Support</span>
+                        <span style="font-size: 19px;font-family: 'Poppins';color: #30333F;margin-left: 15px;text-align: left;">Customer Support</span>
                     </div>
-                    <div style="text-align: left;width: 65%;font-family: 'Poppins';color: #30333F;">It is a long established fact that outstanding Customer Support results in better conversion.</div>
+                    <div style="text-align: left;min-width: 65%;font-family: 'Poppins';color: #30333F;">It is a long established fact that outstanding Customer Support results in better conversion.</div>
                 </div>
-                <div style="display: flex;flex-direction: column;align-items: center;" class="col-12 col-lg-4 wow bounceIn">
-                    <div style="display: flex;justify-content: flex-start;align-items: center;margin-bottom: 20px;width: 65%;">
+                
+                <div style="display: flex;flex-direction: column;align-items: center;padding: 0 30px;margin-bottom: 30px;" class="col-12 col-lg-4 wow bounceIn">
+                    <div style="display: flex;justify-content: flex-start;align-items: center;margin-bottom: 20px;min-width: 65%;width: 100%;">
                         <img style="width: 40px;height: 35px;border-radius: 0;" src="creative-startup/img/curriculum1.png">
-                        <span style="font-size: 20px;font-family: 'Poppins';color: #30333F;margin-left: 15px;">Resume/CV Writing</span>
+                        <span style="font-size: 19px;font-family: 'Poppins';color: #30333F;margin-left: 15px;text-align: left;">Resume/CV Writing</span>
                     </div>
-                    <div style="text-align: left;width: 65%;font-family: 'Poppins';color: #30333F;">Outsource your Resume Writing to us and we’ll get it done by professionals in affordable rates.</div>
+                    <div style="text-align: left;min-width: 65%;font-family: 'Poppins';color: #30333F;">Outsource your Resume Writing to us and we’ll get it done by professionals in affordable rates.</div>
                 </div>
-                <div style="display: flex;flex-direction: column;align-items: center;" class="col-12 col-lg-4 wow bounceIn">
-                    <div style="display: flex;justify-content: flex-start;align-items: center;margin-bottom: 20px;width: 65%;">
+                
+                <div style="display: flex;flex-direction: column;align-items: center;padding: 0 30px;margin-bottom: 30px;" class="col-12 col-lg-4 wow bounceIn">
+                    <div style="display: flex;justify-content: flex-start;align-items: center;margin-bottom: 20px;min-width: 65%;width: 100%;">
                         <img style="width: 40px;height: 35px;border-radius: 0;" src="creative-startup/img/code1.png">
-                        <span style="font-size: 20px;font-family: 'Poppins';color: #30333F;margin-left: 15px;">Website Development</span>
+                        <span style="font-size: 19px;font-family: 'Poppins';color: #30333F;margin-left: 15px;text-align: left;">Website Development</span>
                     </div>
-                    <div style="text-align: left;width: 65%;font-family: 'Poppins';color: #30333F;">A digital footprint has become a necessity for businesses. Get your Website made today!</div>
+                    <div style="text-align: left;min-width: 65%;font-family: 'Poppins';color: #30333F;">A digital footprint has become a necessity for businesses. Get your Website made today!</div>
                 </div>
+                
             </div>
             
             <div style="margin: 0;width: 100%;display: flex;justify-content: center;margin-top: 40px;" class="row">

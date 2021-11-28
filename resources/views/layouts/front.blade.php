@@ -28,7 +28,7 @@
     <link href="vendor/css/wow.css" rel="stylesheet">
     <!-- Style Sheet -->
     <link href="creative-startup/css/blog.css" rel="stylesheet">
-    <link href="creative-startup/css/style.css" rel="stylesheet">
+    <link href="creative-startup/css/style.css?v=1" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 </head>
 
@@ -94,16 +94,16 @@
             <div style="max-width: 95%;" class="container">
                 <div class="row">
 
-                    <div style="margin-top: 0;display: flex;align-items: center;" class="col-7 col-lg-3">
+                    <div style="margin-top: 0;display: flex;align-items: center;" class="col-7 col-lg-2">
                         <a style="background-color: transparent;padding: 0;text-align: left;" class="navbar-brand simple-nav-logo" href="{{'/'}}">
-                            <img src="creative-startup/img/White and Orange Circle Icon Internet Logo.png" alt="logo">
+                            <img src="creative-startup/img/Interble Solutions.png" alt="logo">
                         </a>
                         <a class="navbar-brand fixed-nav-logo" href="{{'/'}}">
-                            <img src="creative-startup/img/White and Orange Circle Icon Internet Logo.png" alt="logo">
+                            <img src="creative-startup/img/Interble Solutions.png" alt="logo">
                         </a>
                     </div>
 
-                    <div style="display: flex;align-items: center;justify-content: flex-start;" class="col-8 col-lg-9 simple-navbar">
+                    <div style="display: flex;align-items: center;justify-content: flex-start;" class="col-8 col-lg-10 simple-navbar">
 
                         <nav style="width: 100%;" class="navbar navbar-expand-lg">
                             <li style="justify-content: space-between;" class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -213,7 +213,7 @@
             <!--Social-->
             <div class="col-lg-3">
                 <div class="text-center text-lg-left ">
-                    <img style="width: 100%;" src="creative-startup/img/White and Orange Circle Icon Internet Logo22.png" alt="logo">
+                    <img style="width: 60%;height: 100px;" src="creative-startup/img/Interble Solutions.png" alt="logo">
                 </div>
             </div>
             <div class="col-lg-3">
@@ -255,7 +255,7 @@
             
                 <div style="color: white;">&copy; Copyright 2021 - all rights reserved | Interble Solutions</div>
 
-                <div style="display: flex;align-items: center;" class="col-lg-3 footer-social">
+                <div style="display: flex;align-items: center;justify-content: flex-end;" class="col-lg-5 footer-social">
                     <span style="color: white;margin-right: 20px;">FOLLOW US ON</span>
                     <ul class="list-unstyled">
                         <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-facebook-f"></i></a></li>
@@ -272,6 +272,11 @@
 <!--Footer End-->
 
 <style>
+
+.slider-area .slider-arrows .slider-arr:hover
+{
+    background-color: #00CFBE;
+}
 
 .sidemenu_btn span
 {
@@ -337,6 +342,12 @@
         height: 105px;
         display: flex;
         align-items: center;
+        width: 100%;
+    }
+
+    header .main-navigation
+    {
+        width: 100%;
     }
 
     header
@@ -352,11 +363,12 @@
     header .navbar-brand img
     {
         max-width: 100%;
+        height: 80px;
     }
 
     header .main-navigation nav .navbar-nav .nav-item.active .nav-link
     {
-        color: #01D464 !important;
+        color: #00CFBE !important;
         font-weight: bold;
     }
 
@@ -415,7 +427,7 @@
 
     .slider-area .bg-overlay
     {
-        /*background-color: #315659;*/
+        background-color: white;
         background-image: url("creative-startup/img/Group 12.png");
         background-size: cover;
         background-repeat: no-repeat;
@@ -492,6 +504,7 @@
     header
     {
         margin-top: 40px;
+        width: 100%;
     }
 
     @media (max-width: 586px)
