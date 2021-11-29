@@ -16,7 +16,8 @@
             <span style="font-size: 28px;font-weight: 400;margin-top: 20px;">for your company's growth</span>
 
             <br>
-            <a style="background: #ffff;color: #111111;padding: 13px 18px;line-height: 1.4;border-radius: 5px;font-weight: 400;font-size: 20px;display: inline-block;margin-top: 30px;cursor: pointer;">Get in touch</a>
+
+            <a style="padding: 13px 18px;line-height: 1.4;border-radius: 5px;font-weight: 400;font-size: 20px;display: inline-block;margin-top: 30px;" class="btn anim-btn anim-btn1 rounded-pill scroll" tabindex="0">Get in touch <span></span><span></span><span></span><span></span></a>
 
             </h1>
 

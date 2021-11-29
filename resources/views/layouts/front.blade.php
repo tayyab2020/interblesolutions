@@ -323,6 +323,23 @@
     border-radius: 15px;
 }
 
+.anim-btn1
+{
+    background: #ffff !important;
+    color: #111111 !important;
+    text-transform: none !important;
+}
+
+.anim-btn1:hover
+{
+    color: #ffff !important;
+}
+
+.anim-btn1 span
+{
+    background-color: #00CFBE;
+}
+
 .anim-btn
 {
     background-color: #00CFBE;
@@ -390,7 +407,7 @@
 
     .slider-area
     {
-        height: 780px;
+        height: 700px;
         padding-top: 50px;
     }
 
