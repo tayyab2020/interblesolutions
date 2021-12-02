@@ -210,14 +210,16 @@
 
     <div style="max-width: 90%;" class="container">
         <div style="align-items: flex-start !important;" class="row align-items-center">
+            
             <!--Social-->
-            <div class="col-lg-3">
+            <div class="col-lg-3 res-footer1">
                 <div class="text-center text-lg-left ">
                     <img style="width: 60%;height: 100px;" src="creative-startup/img/Interble Solutions.png" alt="logo">
                 </div>
             </div>
-            <div class="col-lg-3">
-                <h2 style="font-family: 'poppins';font-weight: 600;font-size: 20px;color: white;margin-bottom: 20px;">Company</h2>
+
+            <div class="col-lg-3 res-footer1">
+                <h2 class="text-center text-lg-left" style="font-family: 'poppins';font-weight: 600;font-size: 20px;color: white;margin-bottom: 20px;">Company</h2>
                 <div class="text-center text-lg-left">
                     <ul style="line-height: 2;" class="list-unstyled">
                         <li><a style="font-weight: 300;font-size: 15px;color: white;" class="wow fadeInUp" href="javascript:void(0);">Home</a></li>
@@ -226,8 +228,9 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-3">
-                <h2 style="font-family: 'poppins';font-weight: 600;font-size: 20px;color: white;margin-bottom: 20px;">Services</h2>
+
+            <div class="col-lg-3 res-footer1">
+                <h2 class="text-center text-lg-left" style="font-family: 'poppins';font-weight: 600;font-size: 20px;color: white;margin-bottom: 20px;">Services</h2>
                 <div class="text-center text-lg-left">
                     <ul style="line-height: 2;" class="list-unstyled">
                         <li><a style="font-weight: 300;font-size: 15px;color: white;" class="wow fadeInUp" href="javascript:void(0);">Resume Writing</a></li>
@@ -236,26 +239,25 @@
                     </ul>
                 </div>
             </div>
+
             <div class="col-lg-3">
-                <div style="display: flex;align-items: center;">
+                <div class="res-footer" style="display: flex;align-items: center;">
                     <img style="width: 20px;" src="creative-startup/img/Calling1.png" />
                     <span style="font-family: 'Poppins';font-weight: 400;font-size: 15px;color: white;margin-left: 10px;">+1 805-354-5622</span>
                 </div>
-                <div style="display: flex;align-items: flex-start;margin-top: 20px;">
+                <div class="res-footer" style="display: flex;align-items: center;margin-top: 20px;">
                     <img style="width: 20px;" src="creative-startup/img/Message.png" />
                     <span style="font-family: 'Poppins';font-weight: 400;font-size: 15px;color: white;margin-left: 10px;">info@interblesolutions.com</span>
                 </div>
-                <div style="display: flex;align-items: flex-start;margin-top: 20px;">
+                <div class="res-footer" style="display: flex;align-items: center;margin-top: 20px;">
                     <img style="width: 20px;" src="creative-startup/img/Location.png" />
                     <span style="font-family: 'Poppins';font-weight: 400;font-size: 15px;color: white;margin-left: 10px;">123 Marion Street HOUSTON, TX 77200</span>
                 </div>
             </div>
 
-            <div style="font-family: 'Poppins';font-size: 16px;font-weight: 300;margin-top: 100px;display: flex;justify-content: space-between;align-items: center;" class="col-lg-12">
+            <div style="font-family: 'Poppins';font-size: 16px;font-weight: 300;margin-top: 50px;display: flex;align-items: center;justify-content: space-between;flex-direction: row-reverse;" class="col-lg-12 res-footer2">
             
-                <div style="color: white;">&copy; Copyright 2021 - all rights reserved | Interble Solutions</div>
-
-                <div style="display: flex;align-items: center;justify-content: flex-end;" class="col-lg-5 footer-social">
+                <div style="display: flex;align-items: center;justify-content: flex-end;" class="col-lg-5 footer-social res-social">
                     <span style="color: white;margin-right: 20px;">FOLLOW US ON</span>
                     <ul class="list-unstyled">
                         <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-facebook-f"></i></a></li>
@@ -263,6 +265,8 @@
                         <li><a class="wow fadeInDown" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-linkedin-in"></i></a></li>
                     </ul>
                 </div>
+
+                <div class="res-social1" style="color: white;">&copy; Copyright 2021 - all rights reserved | Interble Solutions</div>
 
             </div>
 
@@ -505,6 +509,32 @@
     }
 
     @media (max-width: 992px){
+
+        .res-footer2
+        {
+            flex-direction: column !important;
+        }
+
+        .res-social
+        {
+            justify-content: center !important;
+            margin-bottom: 20px;
+        }
+
+        .res-social1
+        {
+            text-align: center;
+        }
+
+        .res-footer1
+        {
+            margin-bottom: 40px;
+        }
+
+        .res-footer
+        {
+            justify-content: center;
+        }
 
         .about-sec .services-area .purple-overlay
         {
