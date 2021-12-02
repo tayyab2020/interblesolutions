@@ -154,13 +154,13 @@
             <div class="container">
                 <div class="row w-100 side-menu-inner-content">
                     <div class="col-12 d-flex justify-content-center align-items-center">
-                        <a href="{{'/'}}" class="navbar-brand"><img src="creative-startup/img/White and Orange Circle Icon Internet Logo (11).png" alt="logo"></a>
+                        <a href="{{'/'}}" class="navbar-brand"><img src="creative-startup/img/Interble Solutions.png" alt="logo"></a>
                     </div>
                     <div class="col-12 col-lg-8">
                         <nav class="side-nav w-100">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link scroll" href="{{url('/')}}">HOME</a>
+                                    <a class="nav-link scroll" href="{{url('/')}}">Home</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <button class="nav-link scroll dropbtn">Services</button>
@@ -191,7 +191,7 @@
                                 <li><a class="instagram-text-hvr" href="javascript:void(0)"><i class="fab fa-youtube"></i> </a> </li>
                                 <li><a class="instagram-text-hvr" href="javascript:void(0)"><i class="fab fa-instagram"></i> </a> </li>
                             </ul>
-                            <p class="text-white">&copy; 2020 MegaOne. Made With Love by Themesindustry</p>
+                            <p class="text-white">&copy; Copyright 2021 - all rights reserved | Interble Solutions</p>
                         </div>
                     </div>
                 </div>
@@ -276,87 +276,96 @@
 <!--Footer End-->
 
 <style>
+    
+    .side-menu
+    {
+        background: linear-gradient(180deg, rgb(17 81 75) 30%, rgb(15 88 82) 45%, rgb(10 164 151) 100%);
+    }
 
-.slider-area .slider-arrows .slider-arr:hover
-{
-    background-color: #00CFBE;
-}
+    .slider-area .slider-arrows .slider-arr:hover
+    {
+        background-color: #00CFBE;
+    }
 
-.sidemenu_btn span
-{
-    background: white;
-}
+    .sidemenu_btn span
+    {
+        background: white;
+    }
 
-.side-menu-active
-{
-    display: block !important;
-}
+    .sidemenu_btn:hover span
+    {
+        background: #00CFBE;
+    }
 
-.header-appear
-{
-    display: none !important;
-}
+    .side-menu-active
+    {
+        display: block !important;
+    }
 
-.footer-social a
-{
-    background-color: white;
-}
+    .header-appear
+    {
+        display: none !important;
+    }
 
-.slider-area .slider-detail .slider-slide .slider-inner-content .slide-heading
-{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    color: #30333F;
-    font-size: 36px;
-}
+    .footer-social a
+    {
+        background-color: white;
+    }
 
-.slider-area .slider-detail .slider-slide .slider-inner-content .slide-text
-{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 300;
-    color: #30333F;
-    font-size: 20px;
-    line-height: 1.3;
+    .slider-area .slider-detail .slider-slide .slider-inner-content .slide-heading
+    {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        color: #30333F;
+        font-size: 36px;
+    }
 
-}
+    .slider-area .slider-detail .slider-slide .slider-inner-content .slide-text
+    {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        color: #30333F;
+        font-size: 20px;
+        line-height: 1.3;
+    }
 
-.slider-area img
-{
-    border-radius: 15px;
-}
+    .slider-area img
+    {
+        border-radius: 15px;
+    }
 
-.anim-btn1
-{
-    background: #ffff !important;
-    color: #111111 !important;
-    text-transform: none !important;
-}
+    .anim-btn1
+    {
+        background: #ffff !important;
+        color: #111111 !important;
+        text-transform: none !important;
+    }
 
-.anim-btn1:hover
-{
-    color: #ffff !important;
-}
+    .anim-btn1:hover
+    {
+        color: #ffff !important;
+    }
 
-.anim-btn1 span
-{
-    background-color: #00CFBE;
-}
+    .anim-btn1 span
+    {
+        background-color: #00CFBE;
+    }
 
-.anim-btn
-{
-    background-color: #00CFBE;
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 13px;
-    font-family: 'Poppins';
-    font-style: normal;
-    border: none !important;
-    padding: 10px 25px;
-    border-radius: 4px !important;
+    .anim-btn
+    {
+        background-color: #00CFBE;
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 13px;
+        font-family: 'Poppins';
+        font-style: normal;
+        border: none !important;
+        padding: 10px 25px;
+        border-radius: 4px !important;
 
-}
+    }
 
     .inner-header
     {
@@ -417,13 +426,7 @@
 
     .side-menu .side-nav .navbar-nav .nav-link
     {
-        color: black;
         font-weight: 500;
-    }
-
-    .side-menu .menu-company-details span, .side-menu .social-icons-simple li a, .side-menu p
-    {
-        color: black !important;
     }
 
     .side-menu .btn-close::before, .side-menu .btn-close::after
