@@ -183,7 +183,7 @@
                         <div class="side-footer text-white w-100">
                             <div class="menu-company-details">
                                 <span><a href="tel:+18053545622"> +1 805-354-5622</a></span>
-                                <span>email@website.com</span>
+                                <span>info@interblesolutions.com</span>
                             </div>
                             <ul class="social-icons-simple">
                                 <li><a class="facebook-text-hvr" href="javascript:void(0)"><i class="fab fa-facebook-f"></i> </a> </li>
