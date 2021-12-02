@@ -579,11 +579,6 @@
 
     @media (max-width: 1200px)
     {
-        header
-        {
-            margin-top: 20px;
-        }
-
         .navbar-expand-lg .navbar-collapse
         {
             display: none !important;
