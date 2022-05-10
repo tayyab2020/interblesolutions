@@ -2,10 +2,10 @@
 
 @section('content')
 
-    <div class="slider-area testimonial-sec position-relative" id="testimonial-sec">
+    <div style="height: auto;padding: 0;" class="slider-area testimonial-sec position-relative" id="testimonial-sec">
         <div style="padding: 0;max-width: 100%;" class="container">
             <div class="testimonial-area padding-bottom">
-                <div style="max-width: 80%;" class="container">
+                <div style="padding-top: 200px;" class="container testimonial-area-child">
                     <div style="margin: 0;" class="row">
                         <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center text-center text-lg-left">
                             <div class="testimonial-details wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
@@ -17,24 +17,105 @@
                                 </p>
                             </div>
                         </div>
-                        <div style="display: flex;align-items: center;" class="col-12 col-lg-6">
+                        <div style="display: flex;align-items: center;justify-content: flex-end;" class="col-12 col-lg-6">
                             <div id="movediv-container" style="display: flex;flex-direction: column;align-items: flex-end;text-align: right;">
                                 <div id="movediv" class="image-cropper wow fadeInRight" data-wow-delay=".8s" data-depth="0.1">
                                     <img src="https://via.placeholder.com/150" />
                                 </div>
-                                <blockquote style="margin: 25px 0 0 0;">Never have I seen such bald and shameless attempts at garnering an audiences' approval through frosted deliciousness.</blockquote>
+                                <span class="text" style="width: 100%;font-size: 30px;font-weight: 600;padding-right: 100px;padding-top: 30px;">M.Haseeb</span>
+                                <span class="text" style="width: 100%;font-size: 18px;padding-right: 110px;padding-top: 10px;">CEO &amp; Founder</span>
+{{--                                <blockquote style="margin: 25px 0 0 0;">Never have I seen such bald and shameless attempts at garnering an audiences' approval through frosted deliciousness.</blockquote>--}}
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <div class="row">
+                    <div class="col-12 stats-heading-area text-center">
+                        <div class="res-font" style="display: flex;justify-content: center;align-items: center;margin-top: 60px;font-size: 40px;font-weight: 700;font-family: 'Poppins';">
+                            <span style="color: #FFFFFF;border-left: 7px solid #00CFBE;padding-left: 10px;">OUR</span> <span style="color: #00CFBE;margin-left: 10px;">Clients</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-top: 50px;" class="our-clients">
+                    <div>
+                        <img src="creative-startup/img/I (3).png">
+                    </div>
+                    <div>
+                        <img src="creative-startup/img/I (3).png">
+                    </div>
+                    <div>
+                        <img src="creative-startup/img/I (3).png">
+                    </div>
+                    <div>
+                        <img src="creative-startup/img/I (3).png">
+                    </div>
+                    <div>
+                        <img src="creative-startup/img/I (3).png">
+                    </div>
+                    <div>
+                        <img src="creative-startup/img/I (3).png">
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
 
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script>
+
+        $(document).ready(function() {
+            $('.our-clients').slick({
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                arrows: true
+            });
+        });
+
+    </script>
+
 
     <style>
 
+        .slick-initialized .slick-slide
+        {
+            margin: 0 120px;
+        }
+
+        .slick-prev
+        {
+            left: 30px;
+        }
+
+        .slick-next
+        {
+            right: 30px;
+        }
+
+        .slick-prev:before, .slick-next:before
+        {
+            font-size: 30px;
+            color: black;
+        }
+
+        .testimonial-area-child
+        {
+            max-width: 80% !important;
+        }
+
         @media (max-width: 992px){
+
+            .testimonial-area-child
+            {
+                max-width: 100% !important;
+            }
 
             #movediv-container
             {
@@ -87,26 +168,52 @@
             quotes: "“" "”" "‘" "’";
             font-family: Georgia, serif;
             font-size: 20px;
-            color: white;
+            color: black;
         }
         .slider-area
         {
             margin-top: 0 !important;
         }
         .image-cropper {
-            width: 400px;
-            height: 400px;
+            width: 350px;
+            height: 350px;
             position: relative;
             overflow: hidden;
             border-radius: 50%;
         }
 
+        .testimonial-area:before
+        {
+            content: "";
+            position: fixed;
+            background-image: url("creative-startup/img/Group 12.jpg");
+            background-size: 100%;
+            opacity: 0.5;
+            width: 100%;
+            height: 100%;
+        }
+
+        .testimonial-sec .testimonial-area
+        {
+            background-color: transparent;
+        }
+
         .testimonial-sec .right-overlay, .testimonial-sec .testimonial-area
         {
-            background-image: url("creative-startup/img/Untitled design.png");
-            background-size: 100%;
             width: 100%;
         }
+
+        .heading
+        {
+            font-size: 45px;
+        }
+
+        .heading, .text
+        {
+            color: #0A433E !important;
+            font-family: "Poppins", sans-serif;
+        }
+
     </style>
 
 @endsection

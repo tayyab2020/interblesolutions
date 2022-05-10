@@ -30,6 +30,39 @@
     <link href="creative-startup/css/blog.css" rel="stylesheet">
     <link href="creative-startup/css/style.css?v=1" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <!-- JavaScript -->
+    <script src="vendor/js/bundle.min.js"></script>
+    <!-- Plugin Js -->
+    <script src="vendor/js/jquery.appear.js"></script>
+    <script src="vendor/js/jquery.fancybox.min.js"></script>
+    <script src="vendor/js/owl.carousel.min.js"></script>
+    <script src="vendor/js/parallaxie.min.js"></script>
+    <script src="vendor/js/wow.min.js"></script>
+    <!-- REVOLUTION JS FILES -->
+    <script src="vendor/js/jquery.themepunch.tools.min.js"></script>
+    <script src="vendor/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="vendor/js/jquery.cubeportfolio.min.js"></script>
+    <!-- SLIDER REVOLUTION EXTENSIONS -->
+    <script src="vendor/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="vendor/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="vendor/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="vendor/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="vendor/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="vendor/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="vendor/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="vendor/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="vendor/js/extensions/revolution.extension.video.min.js"></script>
+    <!-- google map-->
+    <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJRG4KqGVNvAPY4UcVDLcLNXMXk2ktNfY"></script>-->
+    <!--<script src="creative-startup/js/map.js"></script>-->
+    <!--Tilt Js-->
+    <script src="creative-startup/js/slick.js"></script>
+    <script src="creative-startup/js/slick.min.js"></script>
+    <!-- custom script-->
+    <script src="creative-startup/js/circle-progress.min.js"></script>
+
+    <script src="vendor/js/contact_us.js"></script>
+    <script src="creative-startup/js/script.js?v=5"></script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -118,7 +151,7 @@
                                             <a href="#">Link 3</a>
                                         </div>
                                     </li>
-                                    <li class="nav-item {{Route::currentRouteName() == 'home' ? 'about' : null}}"><a class="nav-link" href="{{url('about')}}">About</a></li>
+                                    <li class="nav-item {{Route::currentRouteName() == 'about' ? 'active' : null}}"><a class="nav-link" href="{{url('about')}}">About</a></li>
                                     <li class="nav-item {{Route::currentRouteName() == 'home' ? 'contact-us' : null}}"><a class="nav-link" href="{{url('/')}}">Contact Us</a></li>
                                 </ul>
 
@@ -206,7 +239,7 @@
 @yield('content')
 
 <!--Footer Start-->
-<footer style="padding-bottom: 20px;padding-top: 40px;background-color: #00201C;" class="footer-style-1">
+<footer style="padding-bottom: 20px;padding-top: 40px;background-color: #00201C;position: relative;" class="footer-style-1">
 
     <div style="max-width: 90%;" class="container">
         <div style="align-items: flex-start !important;" class="row align-items-center">
@@ -818,40 +851,6 @@
     }
 
 </style>
-
-<!-- JavaScript -->
-<script src="vendor/js/bundle.min.js"></script>
-<!-- Plugin Js -->
-<script src="vendor/js/jquery.appear.js"></script>
-<script src="vendor/js/jquery.fancybox.min.js"></script>
-<script src="vendor/js/owl.carousel.min.js"></script>
-<script src="vendor/js/parallaxie.min.js"></script>
-<script src="vendor/js/wow.min.js"></script>
-<!-- REVOLUTION JS FILES -->
-<script src="vendor/js/jquery.themepunch.tools.min.js"></script>
-<script src="vendor/js/jquery.themepunch.revolution.min.js"></script>
-<script src="vendor/js/jquery.cubeportfolio.min.js"></script>
-<!-- SLIDER REVOLUTION EXTENSIONS -->
-<script src="vendor/js/extensions/revolution.extension.actions.min.js"></script>
-<script src="vendor/js/extensions/revolution.extension.carousel.min.js"></script>
-<script src="vendor/js/extensions/revolution.extension.kenburn.min.js"></script>
-<script src="vendor/js/extensions/revolution.extension.layeranimation.min.js"></script>
-<script src="vendor/js/extensions/revolution.extension.migration.min.js"></script>
-<script src="vendor/js/extensions/revolution.extension.navigation.min.js"></script>
-<script src="vendor/js/extensions/revolution.extension.parallax.min.js"></script>
-<script src="vendor/js/extensions/revolution.extension.slideanims.min.js"></script>
-<script src="vendor/js/extensions/revolution.extension.video.min.js"></script>
-<!-- google map-->
-<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJRG4KqGVNvAPY4UcVDLcLNXMXk2ktNfY"></script>-->
-<!--<script src="creative-startup/js/map.js"></script>-->
-<!--Tilt Js-->
-<script src="creative-startup/js/slick.js"></script>
-<script src="creative-startup/js/slick.min.js"></script>
-<!-- custom script-->
-<script src="creative-startup/js/circle-progress.min.js"></script>
-
-<script src="vendor/js/contact_us.js"></script>
-<script src="creative-startup/js/script.js?v=5"></script>
 
 </body>
 </html>
