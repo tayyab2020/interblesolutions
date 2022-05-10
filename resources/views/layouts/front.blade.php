@@ -663,7 +663,7 @@
 
     header .main-navigation nav .navbar-nav .nav-item .nav-link:hover
     {
-        color: #01D464 !important;
+        color: #00CFBE !important;
     }
 
     .bg-red
