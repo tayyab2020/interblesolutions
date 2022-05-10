@@ -129,7 +129,8 @@
 
                     <div style="margin-top: 0;display: flex;align-items: center;" class="col-7 col-lg-2">
                         <a style="background-color: transparent;padding: 0;text-align: left;" class="navbar-brand simple-nav-logo" href="{{'/'}}">
-                            <img src="creative-startup/img/Interble Solutions.png" alt="logo">
+                            <img class="main-logo" src="creative-startup/img/Interble Solutions.png" alt="logo">
+                            <img class="sec-logo" src="creative-startup/img/Interble Solutions1.png" alt="logo">
                         </a>
                         <a class="navbar-brand fixed-nav-logo" href="{{'/'}}">
                             <img src="creative-startup/img/Interble Solutions.png" alt="logo">
@@ -157,7 +158,7 @@
 
                                 <ul class="top-personal-info" style="list-style: none;width: auto;margin-left: 50px;">
                                     <li style="background: #ffff;color: #111111;padding: 13px;line-height: 1.4;border-radius: 5px;">
-                                        <a style="font-weight: 400;" href="tel:+18053545622"><img style="width: 22px;height: 22px;margin-right: 5px;" src="creative-startup/img/Calling.png"> +1 805-354-5622</a>
+                                        <a style="font-weight: 400;" href="tel:+18053545622"><img style="width: 22px;height: 22px;margin-right: 5px;" class="main-logo" src="creative-startup/img/Calling.png"><img style="width: 22px;height: 22px;margin-right: 5px;" class="sec-logo" src="creative-startup/img/Calling1.png"> +1 805-354-5622</a>
                                     </li>
                                 </ul>
 
@@ -187,7 +188,9 @@
             <div class="container">
                 <div class="row w-100 side-menu-inner-content">
                     <div class="col-12 d-flex justify-content-center align-items-center">
-                        <a href="{{'/'}}" class="navbar-brand"><img src="creative-startup/img/Interble Solutions.png" alt="logo"></a>
+                        <a href="{{'/'}}" class="navbar-brand">
+                            <img src="creative-startup/img/Interble Solutions.png" alt="logo">
+                        </a>
                     </div>
                     <div class="col-12 col-lg-8">
                         <nav class="side-nav w-100">
@@ -309,7 +312,12 @@
 <!--Footer End-->
 
 <style>
-    
+
+    .sec-logo
+    {
+        display: none;
+    }
+
     .side-menu
     {
         background: linear-gradient(180deg, rgb(17 81 75) 30%, rgb(15 88 82) 45%, rgb(10 164 151) 100%);
