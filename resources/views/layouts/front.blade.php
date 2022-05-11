@@ -158,7 +158,7 @@
 
                                 <ul class="top-personal-info" style="list-style: none;width: auto;margin-left: 50px;">
                                     <li style="background: #ffff;color: #111111;padding: 13px;line-height: 1.4;border-radius: 5px;">
-                                        <a style="font-weight: 400;" href="tel:+18053545622"><img style="width: 22px;height: 22px;margin-right: 5px;" class="main-logo" src="creative-startup/img/Calling.png"><img style="width: 22px;height: 22px;margin-right: 5px;" class="sec-logo" src="creative-startup/img/Calling1.png"> +1 805-354-5622</a>
+                                        <a style="font-weight: 400;" href="tel:+18053545622"><img style="width: 22px;height: 22px;margin-right: 5px;" class="main-logo" src="creative-startup/img/Calling.svg"><img style="width: 22px;height: 22px;margin-right: 5px;" class="sec-logo" src="creative-startup/img/Calling1.svg"> +1 805-354-5622</a>
                                     </li>
                                 </ul>
 
@@ -278,7 +278,7 @@
 
             <div class="col-lg-3">
                 <div class="res-footer" style="display: flex;align-items: center;">
-                    <img style="width: 20px;" src="creative-startup/img/Calling1.png" />
+                    <img style="width: 20px;" src="creative-startup/img/Calling1.svg" />
                     <span style="font-family: 'Poppins';font-weight: 400;font-size: 15px;color: white;margin-left: 10px;">+1 805-354-5622</span>
                 </div>
                 <div class="res-footer" style="display: flex;align-items: center;margin-top: 20px;">
@@ -803,7 +803,7 @@
 
     .dropdown:hover .dropdown-content {display: block;}
 
-    .dropdown:hover .dropbtn {color: #01D464 !important;}
+    .dropdown:hover .dropbtn {color: #00CFBE !important;}
 
     .dropbtn:after, .side-nav .navbar-nav .dropbtn::after
     {
