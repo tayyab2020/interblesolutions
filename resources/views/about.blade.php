@@ -9,7 +9,7 @@
                     <div style="margin: 0;" class="row">
                         <div class="col-12 col-lg-8 d-flex justify-content-center align-items-center text-center text-lg-left">
                             <div class="testimonial-details wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
-                                <h4 class="heading">About</h4>
+                                <h4 class="heading">ABOUT</h4>
                                 <p style="text-align: justify;" class="text">
                                     At <span style="color: #00CFBE;">Interble Solutions</span>, we provide businesses with the opportunity to stay one step ahead of the competition through operational focus and time flexibility. We drive business growth through client retention and diversification, providing opportunities of global expansion. Our aim is to provide excellence through technology, analytics and research oriented methods that drives a business to focus on their core competencies and management.
                                     <br>
@@ -22,23 +22,23 @@
                                 <div id="movediv" class="image-cropper wow fadeInRight" data-wow-delay=".8s" data-depth="0.1">
                                     <img src="https://via.placeholder.com/150" />
                                 </div>
-                                <span class="text text1" style="width: 100%;font-size: 30px;font-weight: 600;padding-top: 40px;">M. Haseeb</span>
-                                <span class="text text2" style="width: 100%;font-size: 16px;padding-top: 10px;">CEO &amp; Founder</span>
+                                <span class="text text1" style="width: 100%;font-size: 25px;font-weight: 600;padding-top: 40px;">M. Haseeb</span>
+                                <span class="text text2" style="width: 100%;font-size: 13px;padding-top: 10px;">CEO &amp; Founder</span>
 {{--                                <blockquote style="margin: 25px 0 0 0;">Never have I seen such bald and shameless attempts at garnering an audiences' approval through frosted deliciousness.</blockquote>--}}
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="row">
+                <div style="margin: 0;" class="row">
                     <div class="col-12 stats-heading-area text-center">
                         <div class="res-font" style="display: flex;justify-content: center;align-items: center;margin-top: 60px;font-size: 40px;font-weight: 700;font-family: 'Poppins';">
-                            <span style="color: #0A433E;border-left: 7px solid #00CFBE;padding-left: 10px;">OUR</span> <span style="color: #00CFBE;margin-left: 10px;">Clients</span>
+                            <span style="color: #0A433E;font-family: 'Poppins', sans-serif;">OUR</span> <span style="color: #00CFBE;margin-left: 10px;font-family: 'Poppins', sans-serif;">CLIENTS</span>
                         </div>
                     </div>
                 </div>
 
-                <div style="margin-top: 50px;" class="our-clients">
+                <div style="margin: auto;margin-top: 80px;" class="our-clients">
                     <div>
                         <img src="creative-startup/img/I (3).png">
                     </div>
@@ -88,8 +88,7 @@
                         settings: {
                             slidesToShow: 3,
                             arrows: false,
-                            centerMode: true,
-                            centerPadding: '40px',
+                            
                         }
                     },
                 ],
@@ -100,6 +99,16 @@
 
 
     <style>
+
+        .sidemenu_btn span
+        {
+            background: black !important;
+        }
+
+        .our-clients
+        {
+            width: 80%;
+        }
 
         .main-logo
         {
@@ -124,7 +133,7 @@
 
         .slick-initialized .slick-slide
         {
-            margin: 0 80px;
+            margin: 0 60px;
         }
 
         @media (max-width: 1100px){
@@ -137,16 +146,33 @@
 
         }
 
-        @media (max-width: 1200px){
+        @media (max-width: 768px){
 
-            .slick-initialized .slick-slide
+            .slider-area .container
             {
-                margin: 0 60px !important;
+                padding-bottom: 60px;
             }
 
-        }
+            .padding-bottom
+            {
+                padding-bottom: 70px;
+            }
 
-        @media (max-width: 768px){
+            .stats-heading-area span
+            {
+                font-size: 30px;
+            }
+
+            .res-font
+            {
+                margin-top: 0 !important;
+            }
+
+            .our-clients
+            {
+                width: 100%;
+                margin-top: 50px !important;
+            }
 
             .slick-initialized .slick-slide
             {
@@ -157,7 +183,7 @@
 
         .slick-prev
         {
-            left: 30px;
+            left: 25px;
         }
 
         .slick-next
@@ -282,6 +308,7 @@
         .heading
         {
             font-size: 38px;
+            text-align: center;
         }
 
         .text
