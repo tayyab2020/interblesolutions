@@ -17,7 +17,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div style="display: flex;align-items: center;justify-content: flex-end;" class="col-12 col-lg-4 movediv">
+                        <div style="display: flex;align-items: flex-start;justify-content: flex-end;" class="col-12 col-lg-4 movediv">
                             <div id="movediv-container" style="display: flex;flex-direction: column;align-items: flex-end;text-align: center;">
                                 <div id="movediv" class="image-cropper wow fadeInRight" data-wow-delay=".8s" data-depth="0.1">
                                     <img src="https://via.placeholder.com/150" />
@@ -251,8 +251,8 @@
             margin-top: 0 !important;
         }
         .image-cropper {
-            width: 320px;
-            height: 320px;
+            width: 300px;
+            height: 300px;
             position: relative;
             overflow: hidden;
             border-radius: 50%;
@@ -281,7 +281,12 @@
 
         .heading
         {
-            font-size: 45px;
+            font-size: 38px;
+        }
+
+        .text
+        {
+            font-size: 14px;
         }
 
         .heading, .text
