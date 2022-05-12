@@ -5,7 +5,7 @@
     <div style="height: auto;padding: 0;" class="slider-area testimonial-sec position-relative" id="testimonial-sec">
         <div style="padding: 0;max-width: 100%;" class="container">
             <div class="testimonial-area padding-bottom">
-                <div style="padding-top: 250px;" class="container testimonial-area-child">
+                <div style="padding-top: 220px;" class="container testimonial-area-child">
 
                     <div style="margin: 0;" class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -15,7 +15,7 @@
 
                     <div style="margin: 0;" class="row">
                         <div class="col-12 col-lg-8 d-flex justify-content-center align-items-center text-center text-lg-left">
-                            <div style="background-color: white;border-radius: 10px;padding: 30px;" class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                            <div style="background-color: white;border-radius: 10px;padding: 30px;" class="col-lg-11 col-md-11 col-sm-12 col-xs-12">
 
                                 <h3 style="color: #0A433E;font-family: 'Poppins', sans-serif;font-weight: 600;">Hello Interble Solutions,</h3>
 
@@ -25,8 +25,8 @@
 
                                     <div style="padding: 0;display: flex;justify-content: space-between;margin-top: 10px;" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
-                                        <input style="width: 48%;" class="form-control text-fields" required placeholder="First Name*" type="text" name="first_name">
-                                        <input style="width: 48%;" class="form-control text-fields" required placeholder="Last Name*" type="text" name="last_name">
+                                        <input style="width: 48%;" class="text-fields" required placeholder="First Name*" type="text" name="first_name">
+                                        <input style="width: 48%;" class="text-fields" required placeholder="Last Name*" type="text" name="last_name">
 
                                     </div>
 
@@ -75,7 +75,7 @@
 
                                     <div style="padding: 0;display: flex;justify-content: space-between;margin-top: 10px;" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
-                                        <input style="width: 48%;" class="form-control text-fields" required placeholder="Company Name*" type="text" name="company_name">
+                                        <input style="width: 48%;" class="text-fields" required placeholder="Company Name*" type="text" name="company_name">
 
                                     </div>
 
@@ -89,8 +89,8 @@
 
                                     <div style="padding: 0;display: flex;justify-content: space-between;margin-top: 10px;" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
-                                        <input style="width: 48%;" class="form-control text-fields" required placeholder="Phone Number*" type="text" name="phone">
-                                        <input style="width: 48%;" class="form-control text-fields" required placeholder="Email Address*" type="email" name="email">
+                                        <input style="width: 48%;" class="text-fields" required placeholder="Phone Number*" type="text" name="phone">
+                                        <input style="width: 48%;" class="text-fields" required placeholder="Email Address*" type="email" name="email">
 
                                     </div>
 
@@ -104,85 +104,46 @@
 
                             </div>
                         </div>
-                        <div style="display: flex;align-items: flex-start;justify-content: flex-end;" class="col-12 col-lg-4 movediv">
-                            <div id="movediv-container" style="display: flex;flex-direction: column;align-items: flex-end;text-align: center;">
-                                <div id="movediv" class="image-cropper wow fadeInRight" data-wow-delay=".8s" data-depth="0.1">
-                                    <img src="https://via.placeholder.com/150" />
-                                </div>
-                                <span class="text text1" style="width: 100%;font-size: 25px;font-weight: 600;padding-top: 40px;">M. Haseeb</span>
-                                <span class="text text2" style="width: 100%;font-size: 13px;padding-top: 10px;">CEO &amp; Founder</span>
-{{--                                <blockquote style="margin: 25px 0 0 0;">Never have I seen such bald and shameless attempts at garnering an audiences' approval through frosted deliciousness.</blockquote>--}}
+                        <div class="col-12 col-lg-4 movediv">
+
+                            <div style="background-color: white;border-radius: 10px;padding: 30px;height: 48%;" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                                <h3 style="color: #0A433E;font-family: 'Poppins', sans-serif;font-weight: 600;display: flex;flex-direction: column;align-items: center;">FAQs <span style="font-size: 15px;font-weight: 500;margin-top: 10px;">Any questions?</span></h3>
+
                             </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div style="margin: 0;" class="row">
-                    <div class="col-12 stats-heading-area text-center">
-                        <div class="res-font" style="display: flex;justify-content: center;align-items: center;margin-top: 60px;font-size: 40px;font-weight: 700;font-family: 'Poppins';">
-                            <span style="color: #0A433E;font-family: 'Poppins', sans-serif;">OUR</span> <span style="color: #00CFBE;margin-left: 10px;font-family: 'Poppins', sans-serif;">CLIENTS</span>
-                        </div>
-                    </div>
-                </div>
+                            <div style="background-color: white;border-radius: 10px;padding: 30px;height: 48%;margin-top: 20px;display: flex;flex-flow: wrap;align-items: center;" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
-                <div style="margin: auto;margin-top: 80px;" class="our-clients">
-                    <div>
-                        <img src="creative-startup/img/I (3).png">
-                    </div>
-                    <div>
-                        <img src="creative-startup/img/I (3).png">
-                    </div>
-                    <div>
-                        <img src="creative-startup/img/I (3).png">
-                    </div>
-                    <div>
-                        <img src="creative-startup/img/I (3).png">
-                    </div>
-                    <div>
-                        <img src="creative-startup/img/I (3).png">
-                    </div>
-                    <div>
-                        <img src="creative-startup/img/I (3).png">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display: flex;align-items: center;">
+
+                                    <img style="width: 100px;height: 100px;" src="{{url("creative-startup/img/Vector.png")}}">
+                                    <span style="font-size: 20px;margin-left: 20px;color: #0A433E;font-family: 'Poppins', sans-serif;">(805) 354 5622 <br> (888) 223 4567</span>
+
+                                </div>
+
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display: flex;align-items: center;">
+
+                                    <img style="width: 80px;height: 60px;" src="{{url("creative-startup/img/Vector (1).png")}}">
+                                    <span style="font-size: 15px;margin-left: 20px;color: #0A433E;font-family: 'Poppins', sans-serif;">info@interblesolutions.com <br> res <br> cs <br> web</span>
+
+                                </div>
+
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display: flex;align-items: center;">
+
+                                    <img style="width: 75px;height: 90px;" src="{{url("creative-startup/img/Group.png")}}">
+                                    <span style="font-size: 20px;margin-left: 20px;color: #0A433E;font-family: 'Poppins', sans-serif;">1234 Marion Street <br> HOUSTON, TX 77200</span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
                     </div>
                 </div>
 
             </div>
         </div>
     </div>
-
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-    <script>
-
-        $(document).ready(function() {
-            $('.our-clients').slick({
-                slidesToShow: 4,
-                slidesToScroll: 1,
-                autoplay: true,
-                autoplaySpeed: 3000,
-                arrows: true,
-                responsive: [
-                    {
-                        breakpoint: 992,
-                        settings: {
-                            slidesToShow: 3,
-                        }
-                    },
-                    {
-                        breakpoint: 768,
-                        settings: {
-                            slidesToShow: 3,
-                            arrows: false,
-                            
-                        }
-                    },
-                ],
-            });
-        });
-
-    </script>
 
 
     <style>
