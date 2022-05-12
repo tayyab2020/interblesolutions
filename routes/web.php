@@ -18,6 +18,7 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('about','HomeController@About')->name('about');
+Route::get('contact-us','HomeController@ContactUs')->name('contact-us');
 
 Route::get('login', function () {
     return view('welcome');

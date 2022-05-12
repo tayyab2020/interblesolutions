@@ -153,7 +153,7 @@
                                         </div>
                                     </li>
                                     <li class="nav-item {{Route::currentRouteName() == 'about' ? 'active' : null}}"><a class="nav-link" href="{{url('about')}}">About</a></li>
-                                    <li class="nav-item {{Route::currentRouteName() == 'home' ? 'contact-us' : null}}"><a class="nav-link" href="{{url('/')}}">Contact Us</a></li>
+                                    <li class="nav-item {{Route::currentRouteName() == 'contact-us' ? 'active' : null}}"><a class="nav-link" href="{{url('contact-us')}}">Contact Us</a></li>
                                 </ul>
 
                                 <ul class="top-personal-info" style="list-style: none;width: auto;margin-left: 50px;">
@@ -210,7 +210,7 @@
                                     <a class="nav-link scroll" href="{{url('about')}}">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link scroll" href="{{url('/')}}">Contact Us</a>
+                                    <a class="nav-link scroll" href="{{url('contact-us')}}">Contact Us</a>
                                 </li>
                             </ul>
                         </nav>
