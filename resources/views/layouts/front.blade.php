@@ -157,7 +157,7 @@
                                 </ul>
 
                                 <ul class="top-personal-info" style="list-style: none;width: auto;margin-left: 50px;">
-                                    <li style="background: #ffff;color: #111111;padding: 13px;line-height: 1.4;border-radius: 5px;">
+                                    <li class="hvr-icon-wobble-vertical" style="background: #ffff;color: #111111;padding: 13px;line-height: 1.4;border-radius: 5px;">
                                         <a style="font-weight: 400;" href="tel:+18053545622"><img style="width: 22px;height: 22px;margin-right: 5px;" class="main-logo" src="creative-startup/img/Calling.svg"><img style="width: 22px;height: 22px;margin-right: 5px;" class="sec-logo" src="creative-startup/img/Calling1.svg"> +1 805-354-5622</a>
                                     </li>
                                 </ul>
@@ -312,6 +312,74 @@
 <!--Footer End-->
 
 <style>
+
+    .hvr-icon-wobble-vertical
+    {
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+    }
+
+    .hvr-icon-wobble-vertical:hover img, .hvr-icon-wobble-vertical:focus img, .hvr-icon-wobble-vertical:active img
+    {
+        -webkit-animation-name: hvr-icon-wobble-vertical;
+        animation-name: hvr-icon-wobble-vertical;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+    }
+
+    .hvr-icon-wobble-vertical .hvr-icon
+    {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+
+    @keyframes hvr-icon-wobble-vertical
+    {
+        16.65%
+        {
+            -webkit-transform: translateY(6px);
+            transform: translateY(6px);
+        }
+
+        33.3%
+        {
+            -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+        }
+
+        49.95%
+        {
+            -webkit-transform: translateY(4px);
+            transform: translateY(4px);
+        }
+
+        66.6%
+        {
+            -webkit-transform: translateY(-2px);
+            transform: translateY(-2px);
+        }
+        
+        83.25%
+        {
+            -webkit-transform: translateY(1px);
+            transform: translateY(1px);
+        }
+
+        100%
+        {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+        }
+    }
 
     .sec-logo
     {
