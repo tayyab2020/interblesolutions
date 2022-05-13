@@ -19,7 +19,7 @@
 
                                 <h3 style="color: #0A433E;font-family: 'Poppins', sans-serif;font-weight: 600;">Hello Interble Solutions,</h3>
 
-                                <div style="padding: 0;margin-top: 10px;" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div style="padding: 0;margin-top: 10px;text-align: left;" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
                                     <span style="color: #0A433E;font-size: 18px;font-family: 'Poppins', sans-serif;">My name is</span>
 
@@ -106,32 +106,32 @@
                         </div>
                         <div class="col-12 col-lg-4 movediv">
 
-                            <div style="background-color: white;border-radius: 10px;padding: 30px;height: 48%;" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div style="background-color: white;border-radius: 10px;padding: 30px;height: 48%;" class="col-lg-12 col-md-11 col-sm-12 col-xs-12 res-box">
 
                                 <h3 style="color: #0A433E;font-family: 'Poppins', sans-serif;font-weight: 600;display: flex;flex-direction: column;align-items: center;">FAQs <span style="font-size: 15px;font-weight: 500;margin-top: 10px;">Any questions?</span></h3>
 
                             </div>
 
-                            <div style="background-color: white;border-radius: 10px;padding: 30px;height: 48%;margin-top: 20px;display: flex;flex-flow: wrap;align-items: center;" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div style="background-color: white;border-radius: 10px;padding: 30px;height: 48%;margin-top: 20px;display: flex;flex-flow: wrap;align-items: center;" class="col-lg-12 col-md-11 col-sm-12 col-xs-12 res-box">
 
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display: flex;align-items: center;">
 
                                     <img style="width: 100px;height: 100px;" src="{{url("creative-startup/img/Vector.png")}}">
-                                    <span style="font-size: 20px;margin-left: 20px;color: #0A433E;font-family: 'Poppins', sans-serif;">(805) 354 5622 <br> (888) 223 4567</span>
+                                    <span style="font-size: 18px;margin-left: 20px;color: #0A433E;font-family: 'Poppins', sans-serif;">(805) 354 5622 <br> (888) 223 4567</span>
 
                                 </div>
 
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display: flex;align-items: center;">
 
                                     <img style="width: 80px;height: 60px;" src="{{url("creative-startup/img/Vector (1).png")}}">
-                                    <span style="font-size: 15px;margin-left: 20px;color: #0A433E;font-family: 'Poppins', sans-serif;">info@interblesolutions.com <br> res <br> cs <br> web</span>
+                                    <span style="font-size: 15px;margin-left: 20px;color: #0A433E;font-family: 'Poppins', sans-serif;word-break: break-all;">info@interblesolutions.com <br> res <br> cs <br> web</span>
 
                                 </div>
 
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display: flex;align-items: center;">
 
                                     <img style="width: 75px;height: 90px;" src="{{url("creative-startup/img/Group.png")}}">
-                                    <span style="font-size: 20px;margin-left: 20px;color: #0A433E;font-family: 'Poppins', sans-serif;">1234 Marion Street <br> HOUSTON, TX 77200</span>
+                                    <span style="font-size: 18px;margin-left: 20px;color: #0A433E;font-family: 'Poppins', sans-serif;">1234 Marion Street <br> HOUSTON, TX 77200</span>
 
                                 </div>
 
@@ -152,11 +152,6 @@
         {
             border: 1px solid #0A433E;
             height: 45px;
-        }
-
-        .sidemenu_btn span
-        {
-            background: black !important;
         }
 
         .our-clients
@@ -241,6 +236,14 @@
         }
 
         @media (max-width: 992px){
+
+            .res-box{
+
+                margin: auto;
+                margin-top: 20px;
+                height: auto !important;
+
+            }
 
             .movediv
             {
