@@ -19,6 +19,9 @@ Route::get('/', function () {
 
 Route::get('about','HomeController@About')->name('about');
 Route::get('contact-us','HomeController@ContactUs')->name('contact-us');
+Route::get('resume','HomeController@Resume')->name('resume');
+Route::get('customer-support','HomeController@CustomerSupport')->name('customer-support');
+Route::get('web-development','HomeController@WebDevelopment')->name('web-development');
 
 Route::get('login', function () {
     return view('welcome');

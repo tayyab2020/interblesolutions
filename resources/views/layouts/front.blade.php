@@ -143,17 +143,17 @@
                             <li style="justify-content: space-between;" class="collapse navbar-collapse" id="navbarSupportedContent">
 
                                 <ul class="navbar-nav">
-                                    <li class="nav-item {{Route::currentRouteName() == 'home' ? 'active' : null}}"><a class="nav-link" href="{{url('/')}}">Home</a></li>
-                                    <li class="nav-item dropdown">
-                                        <button class="dropbtn">Services</button>
+                                    <li class="nav-item {{Route::currentRouteName() == 'home' ? 'active' : null}}"><a class="nav-link {{Route::currentRouteName() == 'resume' ? 'nav-link1' : null }}" href="{{url('/')}}">Home</a></li>
+                                    <li class="nav-item dropdown {{Route::currentRouteName() == 'resume' || Route::currentRouteName() == 'customer-support' || Route::currentRouteName() == 'web-development' ? 'active' : null}} {{Route::currentRouteName() == 'resume' ? 'dropdown1' : null }}">
+                                        <button class="dropbtn {{Route::currentRouteName() == 'resume' ? 'dropbtn1' : null }}">Services</button>
                                         <div class="dropdown-content">
-                                            <a href="#">Link 1</a>
-                                            <a href="#">Link 2</a>
-                                            <a href="#">Link 3</a>
+                                            <a href="{{url('resume')}}">Resume</a>
+                                            <a href="{{url('customer-support')}}">Customer Support</a>
+                                            <a href="{{url('web-development')}}">Web Development</a>
                                         </div>
                                     </li>
-                                    <li class="nav-item {{Route::currentRouteName() == 'about' ? 'active' : null}}"><a class="nav-link" href="{{url('about')}}">About</a></li>
-                                    <li class="nav-item {{Route::currentRouteName() == 'contact-us' ? 'active' : null}}"><a class="nav-link" href="{{url('contact-us')}}">Contact Us</a></li>
+                                    <li class="nav-item {{Route::currentRouteName() == 'about' ? 'active' : null}}"><a class="nav-link {{Route::currentRouteName() == 'resume' ? 'nav-link1' : null }}" href="{{url('about')}}">About</a></li>
+                                    <li class="nav-item {{Route::currentRouteName() == 'contact-us' ? 'active' : null}}"><a class="nav-link {{Route::currentRouteName() == 'resume' ? 'nav-link1' : null }}" href="{{url('contact-us')}}">Contact Us</a></li>
                                 </ul>
 
                                 <ul class="top-personal-info" style="list-style: none;width: auto;margin-left: 50px;">
@@ -201,9 +201,9 @@
                                 <li class="nav-item dropdown">
                                     <button class="nav-link scroll dropbtn">Services</button>
                                     <div class="dropdown-content">
-                                        <a href="#">Link 1</a>
-                                        <a href="#">Link 2</a>
-                                        <a href="#">Link 3</a>
+                                        <a href="{{url('resume')}}">Resume</a>
+                                        <a href="{{url('customer-support')}}">Customer Support</a>
+                                        <a href="{{url('web-development')}}">Web Development</a>
                                     </div>
                                 </li>
                                 <li class="nav-item">
@@ -505,10 +505,15 @@
         height: 80px;
     }
 
-    header .main-navigation nav .navbar-nav .nav-item.active .nav-link
+    header .main-navigation nav .navbar-nav .nav-item.active .nav-link, header .main-navigation nav .navbar-nav .nav-item.active .dropbtn
     {
         color: #00CFBE !important;
         font-weight: bold;
+    }
+
+    header .main-navigation nav .navbar-nav .nav-item.active .dropbtn1
+    {
+        color: #0A433E !important;
     }
 
     header .main-navigation nav .navbar-nav .nav-item .nav-link
@@ -728,10 +733,17 @@
     {
         margin-left: 30px !important;
     }
-
+    
     header .main-navigation nav .navbar-nav .nav-item .nav-link:hover
     {
         color: #00CFBE !important;
+    }
+
+    header .main-navigation nav .navbar-nav .nav-item .nav-link1:hover
+    {
+        color: #0A433E !important;
+        font-weight: 600;
+        transition: 0s ease;
     }
 
     .bg-red
@@ -807,7 +819,7 @@
         left: 25%;
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
-        border-bottom: 10px solid #989898;
+        border-bottom: 10px solid rgb(255, 255, 255,0.8);
     }
 
     @keyframes growOut {
@@ -872,6 +884,8 @@
     .dropdown:hover .dropdown-content {display: block;}
 
     .dropdown:hover .dropbtn {color: #00CFBE !important;}
+
+    .dropdown1:hover .dropbtn1 {color: #0A433E !important;}
 
     .dropbtn:after, .side-nav .navbar-nav .dropbtn::after
     {

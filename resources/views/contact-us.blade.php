@@ -123,14 +123,14 @@
 
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display: flex;align-items: center;padding: 0;">
 
-                                    <img style="width: 50px;height: 40px;border-radius: 0;" src="{{url("creative-startup/img/Vector (1).png")}}">
+                                    <img style="width: 50px;height: 50px;border-radius: 0;" src="{{url("creative-startup/img/Vector (1).png")}}">
                                     <span style="font-size: 15px;margin-left: 20px;color: #0A433E;font-family: 'Poppins', sans-serif;word-break: break-all;">info@interblesolutions.com <br> res <br> cs <br> web</span>
 
                                 </div>
 
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display: flex;align-items: center;padding: 0;">
 
-                                    <img style="width: 50px;height: 45px;border-radius: 0;" src="{{url("creative-startup/img/Group.png")}}">
+                                    <img style="width: 41px;height: 50px;border-radius: 0;margin-left: 5px;" src="{{url("creative-startup/img/Group.png")}}">
                                     <span style="font-size: 14px;margin-left: 20px;color: #0A433E;font-family: 'Poppins', sans-serif;">1234 Marion Street <br> HOUSTON, TX 77200</span>
 
                                 </div>

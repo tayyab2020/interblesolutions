@@ -25,4 +25,19 @@ class HomeController extends Controller
     {
         return view('contact-us');
     }
+
+    public function Resume()
+    {
+        return view('resume');
+    }
+
+    public function CustomerSupport()
+    {
+        return view('customer_support');
+    }
+
+    public function WebDevelopment()
+    {
+        return view('web_development');
+    }
 }
