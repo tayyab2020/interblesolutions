@@ -14,8 +14,8 @@
                     </div>
 
                     <div style="margin: 0;" class="row">
-                        <div class="col-12 col-lg-8 d-flex justify-content-center align-items-center text-center text-lg-left">
-                            <div style="background-color: white;border-radius: 10px;padding: 30px;" class="col-lg-11 col-md-11 col-sm-12 col-xs-12">
+                        <div class="col-12 col-lg-8 d-flex justify-content-start align-items-center text-center text-lg-left">
+                            <div style="background-color: white;border-radius: 10px;padding: 30px;" class="col-lg-12 col-md-11 col-sm-12 col-xs-12">
 
                                 <h3 style="color: #0A433E;font-family: 'Poppins', sans-serif;font-weight: 600;">Hello Interble Solutions,</h3>
 
@@ -104,15 +104,15 @@
 
                             </div>
                         </div>
-                        <div class="col-12 col-lg-4 movediv">
+                        <div style="display: flex;flex-wrap: wrap;align-content: space-between;" class="col-12 col-lg-4 movediv">
 
-                            <div style="background-color: white;border-radius: 10px;padding: 30px;height: 61%;" class="col-lg-12 col-md-11 col-sm-12 col-xs-12 res-box">
+                            <div style="background-color: white;border-radius: 10px;padding: 30px;height: 60%;" class="col-lg-12 col-md-11 col-sm-12 col-xs-12 res-box">
 
                                 <h3 style="color: #0A433E;font-family: 'Poppins', sans-serif;font-weight: 600;display: flex;flex-direction: column;align-items: center;">FAQs <span style="font-size: 15px;font-weight: 500;margin-top: 10px;">Any questions?</span></h3>
 
                             </div>
 
-                            <div style="background-color: white;border-radius: 10px;padding: 25px;height: 35%;margin-top: 20px;display: flex;flex-flow: wrap;align-items: center;" class="col-lg-12 col-md-11 col-sm-12 col-xs-12 res-box">
+                            <div style="background-color: white;border-radius: 10px;padding: 25px;height: 35%;display: flex;flex-flow: wrap;align-items: center;" class="col-lg-12 col-md-11 col-sm-12 col-xs-12 res-box">
 
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display: flex;align-items: center;padding: 0;">
 
@@ -330,7 +330,7 @@
             content: "";
             position: fixed;
             background-image: url("creative-startup/img/Group 123.jpg");
-            background-size: 100%;
+            background-size: 100% 100%;
             opacity: 1;
             width: 100%;
             height: 100%;

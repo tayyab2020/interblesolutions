@@ -23,6 +23,8 @@ Route::get('resume','HomeController@Resume')->name('resume');
 Route::get('customer-support','HomeController@CustomerSupport')->name('customer-support');
 Route::get('web-development','HomeController@WebDevelopment')->name('web-development');
 
+Route::get('generate-pdf', 'PdfGenerateController@pdfview')->name('generate-pdf');
+
 Route::get('login', function () {
     return view('welcome');
 })->name('login');
